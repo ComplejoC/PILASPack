@@ -3,7 +3,15 @@
 ** R
 ** byte-compile and prepare package for lazy loading
 ** help
-No man pages found in package  'PilasPack' 
+Warning: C:/Users/fanta/Desktop/PILASPack/PilasPack.Rcheck/00_pkg_src/PilasPack/man/save_test_api_analysis.Rd:27: unknown macro '\item'
+Warning: C:/Users/fanta/Desktop/PILASPack/PilasPack.Rcheck/00_pkg_src/PilasPack/man/save_test_api_analysis.Rd:29: unknown macro '\item'
+Warning: C:/Users/fanta/Desktop/PILASPack/PilasPack.Rcheck/00_pkg_src/PilasPack/man/save_test_api_analysis.Rd:31: unknown macro '\item'
+Warning: C:/Users/fanta/Desktop/PILASPack/PilasPack.Rcheck/00_pkg_src/PilasPack/man/save_test_api_analysis.Rd:33: unknown macro '\item'
+Warning: C:/Users/fanta/Desktop/PILASPack/PilasPack.Rcheck/00_pkg_src/PilasPack/man/save_test_api_analysis.Rd:35: unexpected section header '\value'
+Warning: C:/Users/fanta/Desktop/PILASPack/PilasPack.Rcheck/00_pkg_src/PilasPack/man/save_test_api_analysis.Rd:38: unexpected section header '\description'
+Warning: C:/Users/fanta/Desktop/PILASPack/PilasPack.Rcheck/00_pkg_src/PilasPack/man/save_test_api_analysis.Rd:41: unexpected section header '\examples'
+Warning: C:/Users/fanta/Desktop/PILASPack/PilasPack.Rcheck/00_pkg_src/PilasPack/man/save_test_api_analysis.Rd:44: unexpected END_OF_INPUT '
+'
 *** installing help indices
 ** building package indices
 ** testing if installed package can be loaded from temporary location

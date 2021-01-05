@@ -6,8 +6,6 @@
 #' @param y_label="Cantidad de Pruebas"
 #' @param title="Pruebas"
 #' @param infer_labels=FALSE
-#' @export
-#' @import ggplot2
 #' @return Plot of data changing over time
 #' @examples
 #' testApiDatePlot(PCR_Test)
@@ -48,7 +46,7 @@ testApiDatePlot<-function(data_frame, col="Sampled",
 
 
 
-  g<-ggplot2::ggplot(data_frame,
+  g<-ggplot(data_frame,
             aes(x=as.Date(data_frame[,1]),y=data_frame[,col_ind])) +geom_col(fill=colour, color="black")+
     theme_bw()+labs(x=x_text, y=y_text, title = t_text)
   return(g)

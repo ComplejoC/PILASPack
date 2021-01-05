@@ -15,7 +15,17 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking serialization versions ... OK
-* checking whether package 'PilasPack' can be installed ... OK
+* checking whether package 'PilasPack' can be installed ... WARNING
+Found the following significant warnings:
+  Warning: C:/Users/fanta/Desktop/PILASPack/PilasPack.Rcheck/00_pkg_src/PilasPack/man/save_test_api_analysis.Rd:27: unknown macro '\item'
+  Warning: C:/Users/fanta/Desktop/PILASPack/PilasPack.Rcheck/00_pkg_src/PilasPack/man/save_test_api_analysis.Rd:29: unknown macro '\item'
+  Warning: C:/Users/fanta/Desktop/PILASPack/PilasPack.Rcheck/00_pkg_src/PilasPack/man/save_test_api_analysis.Rd:31: unknown macro '\item'
+  Warning: C:/Users/fanta/Desktop/PILASPack/PilasPack.Rcheck/00_pkg_src/PilasPack/man/save_test_api_analysis.Rd:33: unknown macro '\item'
+  Warning: C:/Users/fanta/Desktop/PILASPack/PilasPack.Rcheck/00_pkg_src/PilasPack/man/save_test_api_analysis.Rd:35: unexpected section header '\value'
+  Warning: C:/Users/fanta/Desktop/PILASPack/PilasPack.Rcheck/00_pkg_src/PilasPack/man/save_test_api_analysis.Rd:38: unexpected section header '\description'
+  Warning: C:/Users/fanta/Desktop/PILASPack/PilasPack.Rcheck/00_pkg_src/PilasPack/man/save_test_api_analysis.Rd:41: unexpected section header '\examples'
+  Warning: C:/Users/fanta/Desktop/PILASPack/PilasPack.Rcheck/00_pkg_src/PilasPack/man/save_test_api_analysis.Rd:44: unexpected END_OF_INPUT '
+See 'C:/Users/fanta/Desktop/PILASPack/PilasPack.Rcheck/00install.out' for details.
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking for future file timestamps ... OK
@@ -35,22 +45,180 @@ Standardizable: FALSE
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking dependencies in R code ... OK
+* checking dependencies in R code ... WARNING
+'::' or ':::' import not declared from: 'dplyr'
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
 * checking R code for possible problems ... NOTE
+testApiCalculateTurnaround: warning in
+  difftime(DataFrame$orderResult.reportedDate,
+  DataFrame$sampleCollectedDate, unit = "days"): partial argument match
+  of 'unit' to 'units'
+testApiCalculateTurnaround: warning in
+  difftime(DataFrame$orderResult.createdAtDate,
+  DataFrame$orderResult.reportedDate, unit = "days"): partial argument
+  match of 'unit' to 'units'
+testApiCalculateTurnaround: warning in
+  difftime(DataFrame$orderResult.createdAtDate,
+  DataFrame$sampleCollectedDate, unit = "days"): partial argument match
+  of 'unit' to 'units'
+save_test_api_analysis: no visible global function definition for
+  'write.csv'
+save_test_api_analysis: no visible global function definition for
+  'ggsave'
+testApiCalculateTurnaround: no visible binding for global variable
+  'All_Tests'
+testApiCountDates: no visible binding for global variable 'All_Tests'
+testApiCountDates: no visible binding for global variable
+  'sampleCollectedDate'
+testApiCountDates: no visible binding for global variable
+  'orderResult.reportedDate'
+testApiCountDates: no visible binding for global variable
+  'orderResult.createdAtDate'
+testApiCountDelays: no visible binding for global variable 'All_Tests'
+testApiCountDelays: no visible binding for global variable
+  'TatReportSample'
+testApiCountDelays: no visible binding for global variable
+  'TatUploadReport'
+testApiCountDelays: no visible binding for global variable
+  'TatUploadSample'
+testApiCountLabs: no visible binding for global variable 'All_Tests'
+testApiCountLabs: no visible binding for global variable
+  'orderedByEntity.name'
+testApiCountLabs: no visible binding for global variable
+  'processedByEntity.name'
+testApiCountLabsAndType: no visible binding for global variable
+  'All_Tests'
+testApiCountLabsAndType: no visible binding for global variable
+  'orderedByEntity.name'
+testApiCountLabsAndType: no visible binding for global variable
+  'processedByEntity.name'
+testApiCountLabsAndType: no visible binding for global variable
+  'testType'
+testApiCountLabsAndType: no visible binding for global variable
+  'orderResult.result'
+testApiCountLabsAndType: no visible binding for global variable
+  'isElectronic'
+testApiCountType: no visible binding for global variable 'All_Tests'
+testApiCountType: no visible binding for global variable 'testType'
+testApiCountType: no visible binding for global variable
+  'orderResult.result'
+testApiCountType: no visible binding for global variable 'isElectronic'
+testApiDatePlot: no visible global function definition for 'ggplot'
+testApiDatePlot: no visible global function definition for 'aes'
+testApiDatePlot: no visible global function definition for 'geom_col'
+testApiDatePlot: no visible global function definition for 'theme_bw'
+testApiDatePlot: no visible global function definition for 'labs'
+testApiPositivity: no visible binding for global variable 'All_Tests'
+testApiPositivity: no visible binding for global variable
+  'orderResult.reportedDate'
+testApiPositivity: no visible binding for global variable
+  'orderResult.result'
+testApiPositivityPlot: no visible global function definition for
+  'ggplot'
+testApiPositivityPlot: no visible global function definition for 'aes'
+testApiPositivityPlot: no visible binding for global variable 'Fecha'
+testApiPositivityPlot: no visible global function definition for
+  'geom_bar'
+testApiPositivityPlot: no visible binding for global variable 'Total
+  Reported'
+testApiPositivityPlot: no visible binding for global variable
+  'Positives'
+testApiPositivityPlot: no visible global function definition for
+  'scale_fill_discrete'
+testApiPositivityPlot: no visible global function definition for 'labs'
+testApiPositivityPlot: no visible global function definition for
+  'theme_bw'
+testApiSubset: no visible binding for global variable 'All_Tests'
+testApiSubset: no visible global function definition for 'read.csv'
+testApiTestVolume: no visible binding for global variable 'All_Tests'
+testApiTestVolume: no visible binding for global variable
+  'sampleCollectedDate'
+testApiTestVolume: no visible binding for global variable
+  'orderResult.reportedDate'
+testApiTestVolume: no visible binding for global variable
+  'orderResult.createdAtDate'
 testApiToDates: no visible binding for global variable 'All_Tests'
 Undefined global functions or variables:
-  All_Tests
+  All_Tests Fecha Positives TatReportSample TatUploadReport
+  TatUploadSample Total Reported aes geom_bar geom_col ggplot ggsave
+  isElectronic labs orderResult.createdAtDate orderResult.reportedDate
+  orderResult.result orderedByEntity.name processedByEntity.name
+  read.csv sampleCollectedDate scale_fill_discrete testType theme_bw
+  write.csv
+Consider adding
+  importFrom("utils", "read.csv", "write.csv")
+to your NAMESPACE file.
+* checking Rd files ... WARNING
+prepare_Rd: man/save_test_api_analysis.Rd:27: unknown macro '\item'
+prepare_Rd: man/save_test_api_analysis.Rd:29: unknown macro '\item'
+prepare_Rd: man/save_test_api_analysis.Rd:31: unknown macro '\item'
+prepare_Rd: man/save_test_api_analysis.Rd:33: unknown macro '\item'
+prepare_Rd: man/save_test_api_analysis.Rd:35: unexpected section header '\value'
+prepare_Rd: man/save_test_api_analysis.Rd:38: unexpected section header '\description'
+prepare_Rd: man/save_test_api_analysis.Rd:41: unexpected section header '\examples'
+prepare_Rd: man/save_test_api_analysis.Rd:44: unexpected END_OF_INPUT '
+'
+checkRd: (5) save_test_api_analysis.Rd:0-45: Must have a \description
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
 * checking for missing documentation entries ... WARNING
 Undocumented code objects:
-  'testApiToDates'
+  'testApiCountDates' 'testApiCountDelays' 'testApiCountLabs'
+  'testApiCountLabsAndType' 'testApiCountType' 'testApiMissingValues'
+  'testApiTestVolume'
 All user-level objects in a package should have documentation entries.
 See chapter 'Writing R documentation files' in the 'Writing R
 Extensions' manual.
-* checking examples ... NONE
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... WARNING
+Undocumented arguments in documentation object 'save_test_api_analysis'
+  'lab_tag' 'file_type_tag' 'saveFile' 'saveGraph'
+
+Undocumented arguments in documentation object 'testApiDatePlot'
+  'col' 'colour' 'x_label' 'y_label' 'title' 'infer_labels'
+Documented arguments not in \usage in documentation object 'testApiDatePlot':
+  'y_label="Cantidad'
+
+Undocumented arguments in documentation object 'testApiPositivity'
+  'DataFrame' 'cutoff_min' 'cutoff_max' 'cutoff_lower' 'cutoff_upper'
+Documented arguments not in \usage in documentation object 'testApiPositivity':
+  'data_frame'
+
+Undocumented arguments in documentation object 'testApiPositivityPlot'
+  'fromTests'
+
+Undocumented arguments in documentation object 'testApiSubset'
+  'lab_file' 'lab_names' 'lab_ids' 'upload_method' 'phone_numbers'
+  'contact_type'
+
+Functions with \usage entries need to have the appropriate \alias
+entries, and all their arguments documented.
+The \usage entries must correspond to syntactically valid R code.
+See chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... ERROR
+Running examples in 'PilasPack-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: testApiCalculateTurnaround
+> ### Title: Calculates Turnaround time (Tat) for when the sample was
+> ###   reported, when the repost was uploaded and when the sample was
+> ###   uploaded
+> ### Aliases: testApiCalculateTurnaround
+> 
+> ### ** Examples
+> 
+> testApiCalculateTurnaround(All_Test)
+Error in testApiCalculateTurnaround(All_Test) : 
+  object 'All_Test' not found
+Execution halted
 * checking for non-standard things in the check directory ... OK
 * checking for detritus in the temp directory ... OK
 * DONE
-Status: 2 WARNINGs, 1 NOTE
+Status: 1 ERROR, 6 WARNINGs, 1 NOTE

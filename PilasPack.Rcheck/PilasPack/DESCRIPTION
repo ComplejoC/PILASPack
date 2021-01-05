@@ -9,6 +9,7 @@ Description: More about what it does (maybe more than one line)
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2021-01-05 19:19:44 UTC; fanta
-Built: R 4.0.3; ; 2021-01-05 19:19:49 UTC; windows
+Packaged: 2021-01-05 21:15:09 UTC; fanta
+Built: R 4.0.3; ; 2021-01-05 21:15:17 UTC; windows

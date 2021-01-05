@@ -9,12 +9,19 @@
 #' @param saveFile Do you want to save your table in to a file? default is true
 #' @param saveGraph Do yo want to save your graph in to an image? default is true
 #' @return graph or table of analysis done
-#' @export
-#' @import ggplot2
 #' @examples
 #' **work in progress**
 save_test_api_analysis <- function(AnalysisVar = NULL ,GraphVar = NULL, folder_name,  date_tag = "today",
                                    lab_tag, file_type_tag, saveFile = TRUE, saveGraph = TRUE){
+
+  #AnalysisVar: Variable that holds table with analysis done to the data, like turn over or volume
+  #GraphVar: Variable that holds the graph done for analysis
+  #folder_name:  Name of the directory you want to create to save your data
+  #date_tag = "today", default is today but can be changed by writing a date in the format "%Y_%m_%d"
+  #lab_tag : Name of the laboratory whose data you are analyzing
+  #file_type_tag : character string of type of analysis done
+  #saveFile = TRUE: Do you want to save your table in to a file? default is true
+  #saveGraph = TRUE: Do yo want to save your graph in to an image? default is true
 
   if(date_tag == "today"){
     date_tag=format(as.Date(Sys.Date()), "%Y_%m_%d")
@@ -40,6 +47,6 @@ save_test_api_analysis <- function(AnalysisVar = NULL ,GraphVar = NULL, folder_n
       return(print("Can't save file without a Graph"))
     }
     full_path=paste0(folder_name,"/",date_tag,"_",file_type_tag,"_",lab_tag,".png")
-    ggplot2::ggsave(full_path,GraphVar)
+    ggsave(full_path,GraphVar)
   }
 }
