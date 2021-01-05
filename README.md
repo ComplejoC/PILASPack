@@ -1,4 +1,4 @@
 # PILASPack
 
 ## How to Install
-`devtools::install_github("edpclau/ComplejoC/PILASPack")`
+`devtools::install_github("ComplejoC/PILASPack")`
