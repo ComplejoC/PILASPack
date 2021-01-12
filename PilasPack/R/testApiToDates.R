@@ -2,6 +2,7 @@
 #'
 #' @param DataFrame A Data Frame object from Test API
 #' @return The same Data Frame with date columns transformed in to date objects
+#' @export
 #' @examples
 #' testApiToDates(All_Test)
 #' testApiToDates(sub_Test)

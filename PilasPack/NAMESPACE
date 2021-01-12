@@ -2,5 +2,9 @@
 
 export(save_test_api_analysis)
 export(testApiDatePlot)
+export(testApiMonthAsColumn)
+export(testApiPositivity)
 export(testApiPositivityPlot)
+export(testApiSubset)
+export(testApiToDates)
 import(ggplot2)

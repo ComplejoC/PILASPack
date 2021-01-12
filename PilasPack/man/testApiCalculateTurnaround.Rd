@@ -15,7 +15,3 @@ The same Data Frame with added Tat columns for sample was reported, when the rep
 \description{
 Calculates Turnaround time (Tat) for when the sample was reported, when the repost was uploaded and when the sample was uploaded
 }
-\examples{
-testApiCalculateTurnaround(All_Test)
-testApiCalculateTurnaround(sub_Test)
-}
