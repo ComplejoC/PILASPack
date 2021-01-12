@@ -2,6 +2,7 @@
 #'
 #' @param DataFrame A Data Frame object from Test API
 #' @return NewFrame Contains only positive test
+#' @export
 #' @examples
 #' testApiMonthAsColumn(PCR_Test)
 #' testApiMonthAsColumn(ByLab_Test)

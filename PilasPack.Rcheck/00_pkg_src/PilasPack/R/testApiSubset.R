@@ -15,7 +15,8 @@
 #' @param upload_method="all"
 #' @param phone_numbers=c("all")
 #' @param contact_type="all"
-#' @return NewFrame subseted Data Frame by the parameters specefied
+#' @return NewFrame subseted Data Frame by the parameters specified
+#' @export
 #' @examples
 #' testApiSubset(PCR_Test)
 #' testApiSubset(ByLab_Test)

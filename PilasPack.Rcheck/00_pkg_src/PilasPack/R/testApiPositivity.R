@@ -5,6 +5,7 @@
 #' @param cutoff_max=FALSE
 #' @param cutoff_lower="no"
 #' @param cutoff_upper="no"
+#' @export
 #' @return NewFrame with the positivity calculated by unit of time
 #' @examples
 #' testApiPositivity(PCR_Test)
