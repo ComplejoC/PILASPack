@@ -2,8 +2,8 @@
 #'
 #' @param DataFrame A Data Frame object from Test API
 #' @return The same Data Frame with added Tat columns for sample was reported, when the repost was uploaded and when the sample was uploaded
-#' @examples
 #' @export
+#' @examples
 #' testApiCalculateTurnaround(All_Test)
 #' testApiCalculateTurnaround(sub_Test)
 
