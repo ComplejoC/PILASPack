@@ -9,7 +9,6 @@
 #' defaults to FALSE
 #' @param cutoff_max a boolean value. If TRUE, shows the data frame up to the latest non-zero date onward
 #' defaults to FALSE
-#'
 #' @export
 #' @return Plot of data changing over time
 #' @examples
