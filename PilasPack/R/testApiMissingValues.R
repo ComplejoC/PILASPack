@@ -1,4 +1,4 @@
-#' Generates Plots that include dates in the x axis
+#' Generates Tables for Missing Values
 #'
 #' @param DataFrame A data frame that has already been manipulated by
 #' testApiCalculateTurnaround, testApiToDates and testApiMonthAsColumn.

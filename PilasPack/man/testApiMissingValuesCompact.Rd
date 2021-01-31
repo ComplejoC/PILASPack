@@ -2,7 +2,7 @@
 % Please edit documentation in R/testApiMissingValuesCompact.R
 \name{testApiMissingValuesCompact}
 \alias{testApiMissingValuesCompact}
-\title{Generates Plots that include dates in the x axis}
+\title{Generates  Compact Table for Missing Values}
 \usage{
 testApiMissingValuesCompact(DataFrame)
 }
@@ -15,7 +15,7 @@ A  compact table with information on the number and fraction of missing values p
 considered
 }
 \description{
-Generates Plots that include dates in the x axis
+Generates  Compact Table for Missing Values
 }
 \examples{
 testApiMissingValuesCompact()
