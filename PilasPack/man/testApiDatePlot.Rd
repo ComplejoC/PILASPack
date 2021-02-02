@@ -17,7 +17,15 @@ testApiDatePlot(
 \arguments{
 \item{data_frame}{A data frame that has already been manipulated by testApiCalculateTurnaround, testApiToDates and testApiMonthAsColumn.}
 
-\item{y_label="Cantidad}{de Pruebas"}
+\item{col}{"Sampled" colummn to plot (can be "Sampled", "Reported", or "Uploaded")}
+
+\item{colour}{"blue" color to use for fill}
+
+\item{y_label}{"Cantidad de Pruebas"}
+
+\item{title}{"Pruebas"}
+
+\item{infer_labels}{FALSE}
 }
 \value{
 Plot of data changing over time
