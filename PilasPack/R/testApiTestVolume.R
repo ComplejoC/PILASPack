@@ -1,4 +1,4 @@
-#' Generates Table with number of tests per date
+#' Generates Plots that include dates in the x axis
 #'
 #' @param data_frame A data frame that has already been manipulated by testApiCalculateTurnaround, testApiToDates and testApiMonthAsColumn.
 #' @param cutoff_lower a date from which to cut off the lower part of the data frame.

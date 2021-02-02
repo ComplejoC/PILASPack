@@ -2,7 +2,7 @@
 % Please edit documentation in R/testApiMissingValues.R
 \name{testApiMissingValues}
 \alias{testApiMissingValues}
-\title{Generates Tables for Missing Values}
+\title{Generates Plots that include dates in the x axis}
 \usage{
 testApiMissingValues(DataFrame)
 }
@@ -15,7 +15,7 @@ A table with information on the number and fraction of missing values per variab
 considered
 }
 \description{
-Generates Tables for Missing Values
+Generates Plots that include dates in the x axis
 }
 \examples{
 testApiMissingValues

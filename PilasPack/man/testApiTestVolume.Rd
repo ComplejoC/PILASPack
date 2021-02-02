@@ -2,7 +2,7 @@
 % Please edit documentation in R/testApiTestVolume.R
 \name{testApiTestVolume}
 \alias{testApiTestVolume}
-\title{Generates Table with number of tests per date}
+\title{Generates Plots that include dates in the x axis}
 \usage{
 testApiTestVolume(
   data_frame = All_Tests,
@@ -31,7 +31,7 @@ defaults to FALSE}
 Plot of data changing over time
 }
 \description{
-Generates Table with number of tests per date
+Generates Plots that include dates in the x axis
 }
 \examples{
 testApiTestVolume()
