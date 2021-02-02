@@ -1,6 +1,5 @@
 #' Generates List of Dates
 #'
-#' @param
 #' @return List of Dates
 #' @examples
 #' testApiDateList()

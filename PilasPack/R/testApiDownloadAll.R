@@ -12,8 +12,7 @@
 
 testApiDownloadAll<-function(email, password){
 
-  library(httr)
-  library(jsonlite)
+
 
 
   base_url="https://bioportal.salud.gov.pr/api/administration/reports/unique-tests"
