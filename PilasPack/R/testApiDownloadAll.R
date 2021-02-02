@@ -4,6 +4,7 @@
 #' @param password Bioportal account password to be used to acces unique tests API
 #' @import httr
 #' @import jsonlite
+#' @export
 #' @return (very large!!) data frame of all tests from unique tests API
 #' @examples
 #' testApiDownloadAll(email, password)
