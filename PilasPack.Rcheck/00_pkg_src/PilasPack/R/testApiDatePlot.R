@@ -1,11 +1,11 @@
 #' Generates Plots that include dates in the x axis
 #'
 #' @param data_frame A data frame that has already been manipulated by testApiCalculateTurnaround, testApiToDates and testApiMonthAsColumn.
-#' @param col="Sampled"
-#' @param colour="blue"
+#' @param col="Sampled" The colummn of to be plotted (can be "Sampled","Reported" or "Uploaded")
+#' @param colour="blue" color to use for fill
 #' @param y_label="Cantidad de Pruebas"
-#' @param title="Pruebas"
-#' @param infer_labels=FALSE
+#' @param title="Pruebas" Title to use for plot
+#' @param infer_labels=FALSE boolean. If TRUE, infers labels from col
 #' @export
 #' @import ggplot2
 #' @return Plot of data changing over time

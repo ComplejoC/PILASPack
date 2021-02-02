@@ -2,6 +2,7 @@
 
 export(testApiCalculateTurnaround)
 export(testApiDatePlot)
+export(testApiDownloadAll)
 export(testApiMissingValues)
 export(testApiMissingValuesCompact)
 export(testApiMonthAsColumn)
@@ -13,3 +14,5 @@ export(testApiTestVolume)
 export(testApiToDates)
 import(dplyr)
 import(ggplot2)
+import(httr)
+import(jsonlite)
