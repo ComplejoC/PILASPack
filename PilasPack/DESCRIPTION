@@ -1,7 +1,7 @@
 Package: PilasPack
 Type: Package
 Title: PILAS Pack
-Version: 0.1.1
+Version: 0.1.2
 Author: Andrés Arroyo
 Maintainer: Sofía Meléndez Cartagena <sofia.melendez@upr.edu>
 Description: Contains All Analysis Functions Used By PILAS For COVID 19 Analysis
