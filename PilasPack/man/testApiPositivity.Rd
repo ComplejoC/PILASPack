@@ -13,6 +13,14 @@ testApiPositivity(
 )
 }
 \arguments{
+\item{cutoff_min}{FALSE}
+
+\item{cutoff_max}{FALSE}
+
+\item{cutoff_lower}{"no"}
+
+\item{cutoff_upper}{"no"}
+
 \item{data_frame}{A data frame that has already been manipulated by testApiCalculateTurnaround, testApiToDates and testApiMonthAsColumn.}
 }
 \value{

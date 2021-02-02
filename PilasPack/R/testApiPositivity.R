@@ -1,10 +1,10 @@
 #' Returns Positivity for test available in TestApi Table
 #'
 #' @param data_frame A data frame that has already been manipulated by testApiCalculateTurnaround, testApiToDates and testApiMonthAsColumn.
-#' @param cutoff_min=FALSE
-#' @param cutoff_max=FALSE
-#' @param cutoff_lower="no"
-#' @param cutoff_upper="no"
+#' @param cutoff_min FALSE
+#' @param cutoff_max FALSE
+#' @param cutoff_lower "no"
+#' @param cutoff_upper "no"
 #' @export
 #' @return NewFrame with the positivity calculated by unit of time
 #' @examples

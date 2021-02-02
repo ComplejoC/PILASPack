@@ -4,7 +4,7 @@
 \alias{testApiPositivityPlot}
 \title{Plots Positivity results}
 \usage{
-testApiPositivityPlot(DataFrame, fromTests = FALSE)
+testApiPositivityPlot(DataFrame)
 }
 \arguments{
 \item{DataFrame}{A Data Frame object with calculated positivity}

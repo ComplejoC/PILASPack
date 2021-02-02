@@ -40,6 +40,18 @@ testApiSubset(
 \item{test_type}{Default subsets by all types of test. Takes String value. Available test types are: Molecular, Serological, Antigens,Total Antibodies,Serological IgG Only}
 
 \item{result_type}{Default subsets by all types of results. Takes String value. Available result types are:Negative, Not Detected, Inconclusive,Positive 2019-nCoV, Positive, Not Tested,Other,Positive IgM Only,Positive IgM and IgG,Positive IgG Only, Not Valid,Invalid, COVID-19 Negative, Presumptive Positive,"", COVID-19 Positive, SARS-CoV-2 Negative, SARS-CoV-2 Presumptive Positive,SARS-CoV-2 Positive}
+
+\item{lab_file}{"all"}
+
+\item{lab_names}{c("all")}
+
+\item{lab_ids}{c("all")}
+
+\item{upload_method}{"all"}
+
+\item{phone_numbers}{c("all")}
+
+\item{contact_type}{"all"}
 }
 \value{
 NewFrame subseted Data Frame by the parameters specified
