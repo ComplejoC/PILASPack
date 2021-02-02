@@ -5,11 +5,11 @@
 * using options '--no-manual --as-cran'
 * checking for file 'PilasPack/DESCRIPTION' ... OK
 * checking extension type ... Package
-* this is package 'PilasPack' version '0.1.0'
+* this is package 'PilasPack' version '0.1.2'
 * package encoding: UTF-8
 * checking package namespace information ... OK
 * checking package dependencies ... ERROR
-Namespace dependency not required: 'ggplot2'
+Namespace dependencies not required: 'dplyr', 'ggplot2', 'httr', 'jsonlite'
 
 See section 'The DESCRIPTION file' in the 'Writing R Extensions'
 manual.

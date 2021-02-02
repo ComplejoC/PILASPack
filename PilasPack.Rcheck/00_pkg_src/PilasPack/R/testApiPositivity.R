@@ -1,14 +1,12 @@
 #' Returns Positivity for test available in TestApi Table
 #'
 #' @param data_frame A data frame that has already been manipulated by testApiCalculateTurnaround, testApiToDates and testApiMonthAsColumn.
-#' @param cutoff_min=FALSE Boolean (defiualts to FALSE). If TRUE returns the table starting from the
-#' earliest non-zero value
-#' @param cutoff_max=FALSE Boolean (defiualts to FALSE). If TRUE returns the table starting from the
-#' earliest non-zero value
-#' @param cutoff_lower="no" lower cutoff date
-#' @param cutoff_upper="no" upper cutoff date
+#' @param cutoff_min FALSE
+#' @param cutoff_max FALSE
+#' @param cutoff_lower "no"
+#' @param cutoff_upper "no"
 #' @export
-#' @return NewFrame with the positivity calculated by report date
+#' @return NewFrame with the positivity calculated by unit of time
 #' @examples
 #' testApiPositivity(PCR_Test)
 #' testApiPositivity(ByLab_Test)
