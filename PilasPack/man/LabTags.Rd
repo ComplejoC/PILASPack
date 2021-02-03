@@ -3,7 +3,7 @@
 \docType{data}
 \name{LabTags}
 \alias{LabTags}
-\title{Labtags}
+\title{LabTags Data Set}
 \format{
 A data frame with 322 rows and 3 variables:
 \describe{
