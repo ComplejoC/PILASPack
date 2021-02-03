@@ -31,8 +31,7 @@ base::assign(".ptime", proc.time(), pos = "CheckExEnv")
 
 ### ** Examples
 
-helperFirstDayOfMonth
-helperFirstDayOfmonth("2021-01-13")
+helperFirstDayOfMonth("2021-01-13")
 
 
 

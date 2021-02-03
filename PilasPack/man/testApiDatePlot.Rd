@@ -21,6 +21,8 @@ testApiDatePlot(
 
 \item{colour}{"blue" color to use for fill}
 
+\item{x_label}{"Fecha"}
+
 \item{y_label}{"Cantidad de Pruebas"}
 
 \item{title}{"Pruebas"}

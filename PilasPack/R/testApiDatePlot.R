@@ -3,6 +3,7 @@
 #' @param data_frame A data frame that has already been manipulated by testApiCalculateTurnaround, testApiToDates and testApiMonthAsColumn.
 #' @param col "Sampled" colummn to plot (can be "Sampled", "Reported", or "Uploaded")
 #' @param colour "blue" color to use for fill
+#' @param x_label "Fecha"
 #' @param y_label "Cantidad de Pruebas"
 #' @param title "Pruebas"
 #' @param infer_labels FALSE

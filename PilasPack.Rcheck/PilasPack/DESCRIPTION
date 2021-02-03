@@ -12,5 +12,5 @@ LazyData: true
 RoxygenNote: 7.1.1
 Depends: R (>= 2.10)
 NeedsCompilation: no
-Packaged: 2021-02-03 14:07:24 UTC; fanta
-Built: R 4.0.3; ; 2021-02-03 14:07:29 UTC; windows
+Packaged: 2021-02-03 15:44:37 UTC; fanta
+Built: R 4.0.3; ; 2021-02-03 15:44:43 UTC; windows

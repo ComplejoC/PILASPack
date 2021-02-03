@@ -50,6 +50,7 @@ Type 'q()' to quit R.
 > 
 > ### ** Examples
 > 
-> helperFirstDayOfMonth
-Error: object 'helperFirstDayOfMonth' not found
+> helperFirstDayOfMonth("2021-01-13")
+Error in helperFirstDayOfMonth("2021-01-13") : 
+  could not find function "helperFirstDayOfMonth"
 Execution halted

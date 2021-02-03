@@ -16,6 +16,5 @@ First day of that date's month
 returns the first day of the month for a given date
 }
 \examples{
-helperFirstDayOfMonth
-helperFirstDayOfmonth("2021-01-13")
+helperFirstDayOfMonth("2021-01-13")
 }
