@@ -4,8 +4,8 @@ Title: PILAS Pack
 Version: 0.1.2
 Author: Andrés Arroyo
 Maintainer: Sofía Meléndez Cartagena <sofia.melendez@upr.edu>
-Description: Contains All Analysis Functions Used By PILAS For COVID 19 Analysis
-License: MIT
+Description: Contains All Analysis Functions Used By PILAS For COVID 19 Analysis.
+License: MIT + file LICENSE
 Imports: dplyr, ggplot2, httr, jsonlite
 Encoding: UTF-8
 LazyData: true

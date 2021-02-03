@@ -5,8 +5,7 @@
 #' @param date A date or string to be interpreted as.Date()
 #' @return list with two vectors, one for the start of month and one for the end of month
 #' @examples
-#' helperMonthDelimiter()
-#' strart_of_month=helperMonthDelimiter()[[1]]
+#'
 
 
 

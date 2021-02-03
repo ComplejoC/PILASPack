@@ -11,15 +11,15 @@ testApiCalculateTurnaround<-function(DataFrame=All_Tests){
   NewFrame=DataFrame
   NewFrame$TatReportSample<-difftime(DataFrame$orderResult.reportedDate,
                                      DataFrame$sampleCollectedDate,
-                                     unit="days")
+                                     units="days")
 
   NewFrame$TatUploadReport<-difftime(DataFrame$orderResult.createdAtDate,
                                      DataFrame$orderResult.reportedDate,
-                                     unit="days")
+                                     units="days")
 
   NewFrame$TatUploadSample<-difftime(DataFrame$orderResult.createdAtDate,
                                      DataFrame$sampleCollectedDate,
-                                     unit="days")
+                                     units="days")
 
 
 

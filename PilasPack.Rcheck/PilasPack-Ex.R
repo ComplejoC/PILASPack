@@ -19,47 +19,6 @@ library('PilasPack')
 base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
 base::assign(".old_wd", base::getwd(), pos = 'CheckExEnv')
 cleanEx()
-nameEx("helperFirstDayOfMonth")
-### * helperFirstDayOfMonth
-
-flush(stderr()); flush(stdout())
-
-base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-### Name: helperFirstDayOfMonth
-### Title: returns the first day of the month for a given date
-### Aliases: helperFirstDayOfMonth
-
-### ** Examples
-
-helperFirstDayOfMonth("2021-01-13")
-
-
-
-base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
-base::cat("helperFirstDayOfMonth", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
-cleanEx()
-nameEx("helperMonthDelimiter")
-### * helperMonthDelimiter
-
-flush(stderr()); flush(stdout())
-
-base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-### Name: helperMonthDelimiter
-### Title: generates two vectors, one with the first day of the month
-###   starting from april 2020 to the current month, and one with le last
-###   day of the month starting from april 2020 to the current month
-### Aliases: helperMonthDelimiter
-
-### ** Examples
-
-helperMonthDelimiter()
-strart_of_month=helperMonthDelimiter()[[1]]
-
-
-
-base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
-base::cat("helperMonthDelimiter", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
-cleanEx()
 nameEx("testApiCalculateTurnaround")
 ### * testApiCalculateTurnaround
 

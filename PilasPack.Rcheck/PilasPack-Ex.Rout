@@ -38,19 +38,21 @@ Type 'q()' to quit R.
 > base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
 > base::assign(".old_wd", base::getwd(), pos = 'CheckExEnv')
 > cleanEx()
-> nameEx("helperFirstDayOfMonth")
-> ### * helperFirstDayOfMonth
+> nameEx("testApiCalculateTurnaround")
+> ### * testApiCalculateTurnaround
 > 
 > flush(stderr()); flush(stdout())
 > 
 > base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: helperFirstDayOfMonth
-> ### Title: returns the first day of the month for a given date
-> ### Aliases: helperFirstDayOfMonth
+> ### Name: testApiCalculateTurnaround
+> ### Title: Calculates Turnaround time (Tat) for when the sample was
+> ###   reported, when the repost was uploaded and when the sample was
+> ###   uploaded
+> ### Aliases: testApiCalculateTurnaround
 > 
 > ### ** Examples
 > 
-> helperFirstDayOfMonth("2021-01-13")
-Error in helperFirstDayOfMonth("2021-01-13") : 
-  could not find function "helperFirstDayOfMonth"
+> testApiCalculateTurnaround(All_Test)
+Error in testApiCalculateTurnaround(All_Test) : 
+  object 'All_Test' not found
 Execution halted

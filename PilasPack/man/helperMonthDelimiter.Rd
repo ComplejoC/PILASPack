@@ -20,6 +20,5 @@ to the current month, and one with le last day of the month starting from april 
 to the current month
 }
 \examples{
-helperMonthDelimiter()
-strart_of_month=helperMonthDelimiter()[[1]]
+
 }
