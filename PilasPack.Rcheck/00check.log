@@ -8,10 +8,196 @@
 * this is package 'PilasPack' version '0.1.2'
 * package encoding: UTF-8
 * checking package namespace information ... OK
-* checking package dependencies ... ERROR
-Namespace dependencies not required: 'dplyr', 'ggplot2', 'httr', 'jsonlite'
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking serialization versions ... OK
+* checking whether package 'PilasPack' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for future file timestamps ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Malformed Description field: should contain one or more complete sentences.
+License components which are templates and need '+ file LICENSE':
+  MIT
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+testApiCalculateTurnaround: warning in
+  difftime(DataFrame$orderResult.reportedDate,
+  DataFrame$sampleCollectedDate, unit = "days"): partial argument match
+  of 'unit' to 'units'
+testApiCalculateTurnaround: warning in
+  difftime(DataFrame$orderResult.createdAtDate,
+  DataFrame$orderResult.reportedDate, unit = "days"): partial argument
+  match of 'unit' to 'units'
+testApiCalculateTurnaround: warning in
+  difftime(DataFrame$orderResult.createdAtDate,
+  DataFrame$sampleCollectedDate, unit = "days"): partial argument match
+  of 'unit' to 'units'
+testApiCalculateTurnaround: no visible binding for global variable
+  'All_Tests'
+testApiCountDates: no visible binding for global variable 'All_Tests'
+testApiCountDates: no visible binding for global variable
+  'sampleCollectedDate'
+testApiCountDates: no visible binding for global variable
+  'orderResult.reportedDate'
+testApiCountDates: no visible binding for global variable
+  'orderResult.createdAtDate'
+testApiCountDelays: no visible binding for global variable 'All_Tests'
+testApiCountDelays: no visible binding for global variable
+  'TatReportSample'
+testApiCountDelays: no visible binding for global variable
+  'TatUploadReport'
+testApiCountDelays: no visible binding for global variable
+  'TatUploadSample'
+testApiCountLabs: no visible binding for global variable 'All_Tests'
+testApiCountLabs: no visible binding for global variable
+  'orderedByEntity.name'
+testApiCountLabs: no visible binding for global variable
+  'processedByEntity.name'
+testApiCountLabsAndType: no visible binding for global variable
+  'All_Tests'
+testApiCountLabsAndType: no visible binding for global variable
+  'orderedByEntity.name'
+testApiCountLabsAndType: no visible binding for global variable
+  'processedByEntity.name'
+testApiCountLabsAndType: no visible binding for global variable
+  'testType'
+testApiCountLabsAndType: no visible binding for global variable
+  'orderResult.result'
+testApiCountLabsAndType: no visible binding for global variable
+  'isElectronic'
+testApiCountType: no visible binding for global variable 'All_Tests'
+testApiCountType: no visible binding for global variable 'testType'
+testApiCountType: no visible binding for global variable
+  'orderResult.result'
+testApiCountType: no visible binding for global variable 'isElectronic'
+testApiMissingValuesCompact: no visible binding for global variable
+  'Variable'
+testApiPositivesOnTime: no visible binding for global variable
+  'All_Tests'
+testApiPositivesOnTime: no visible binding for global variable
+  'TatUploadReport'
+testApiPositivity: no visible binding for global variable 'All_Tests'
+testApiPositivity: no visible binding for global variable
+  'orderResult.reportedDate'
+testApiPositivity: no visible binding for global variable
+  'orderResult.result'
+testApiPositivityPlot: no visible binding for global variable 'Fecha'
+testApiPositivityPlot: no visible binding for global variable 'Total
+  Reported'
+testApiPositivityPlot: no visible binding for global variable
+  'Positives'
+testApiSubset: no visible binding for global variable 'All_Tests'
+testApiSubset: no visible global function definition for 'read.csv'
+testApiTestVolume: no visible binding for global variable 'All_Tests'
+testApiTestVolume: no visible binding for global variable
+  'sampleCollectedDate'
+testApiTestVolume: no visible binding for global variable
+  'orderResult.reportedDate'
+testApiTestVolume: no visible binding for global variable
+  'orderResult.createdAtDate'
+testApiToDates: no visible binding for global variable 'All_Tests'
+Undefined global functions or variables:
+  All_Tests Fecha Positives TatReportSample TatUploadReport
+  TatUploadSample Total Reported Variable isElectronic
+  orderResult.createdAtDate orderResult.reportedDate orderResult.result
+  orderedByEntity.name processedByEntity.name read.csv
+  sampleCollectedDate testType
+Consider adding
+  importFrom("utils", "read.csv")
+to your NAMESPACE file.
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... WARNING
+Undocumented arguments in documentation object 'testApiDatePlot'
+  'x_label'
 
-See section 'The DESCRIPTION file' in the 'Writing R Extensions'
-manual.
+Undocumented arguments in documentation object 'testApiPositivity'
+  'DataFrame'
+Documented arguments not in \usage in documentation object 'testApiPositivity':
+  'data_frame'
+
+Functions with \usage entries need to have the appropriate \alias
+entries, and all their arguments documented.
+The \usage entries must correspond to syntactically valid R code.
+See chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... WARNING
+  Warning: found non-ASCII strings
+  'Laboratorio Cl<c3><ad>nico Borinquen' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Alejandrino' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Avenida Mu<c3><b1>oz Mar<c3><ad>n' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Avenida Pav<c3><ad>a Fern<c3><a1>ndez' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Bairoa' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Borinquen Towers' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Caguas Ralph' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Centro Europa' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Cidra Pueblo' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Cl<c3><ad>nica Las Am<c3><a9>ricas' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Dorado' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Drive-In' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Escorial' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Europa' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Forest Hills' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Garden Hills Plaza' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Gurabo Plaza' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Hato Rey' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Hermanas D<c3><a1>vila' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Humacao' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Iturregui Plaza' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Las Lomas' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Los Prados' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Ocean Park' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Plaza Esmeralda' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - R<c3><ad>o Hondo' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - San Francisco' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen - Winston Churchill' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen Consolidated Medical Plaza' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico Borinquen Quadrangle Medical Building' in object 'LabTags'
+  'Laboratorio Cl<c3><ad>nico y de Referencia Escuela Medicina de Ponce' in object 'LabTags'
+  'Laboratorio CorePlus Servicios Cl<c3><ad>nicos y Patol<c3><b3>gicos' in object 'LabTags'
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... ERROR
+Running examples in 'PilasPack-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: helperFirstDayOfMonth
+> ### Title: returns the first day of the month for a given date
+> ### Aliases: helperFirstDayOfMonth
+> 
+> ### ** Examples
+> 
+> helperFirstDayOfMonth
+Error: object 'helperFirstDayOfMonth' not found
+Execution halted
+* checking for non-standard things in the check directory ... OK
+* checking for detritus in the temp directory ... OK
 * DONE
-Status: 1 ERROR
+Status: 1 ERROR, 2 WARNINGs, 2 NOTEs

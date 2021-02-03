@@ -1,0 +1,35 @@
+LabTags                 Labtags
+helperFirstDayOfMonth   returns the first day of the month for a given
+                        date
+helperMonthDelimiter    generates two vectors, one with the first day
+                        of the month starting from april 2020 to the
+                        current month, and one with le last day of the
+                        month starting from april 2020 to the current
+                        month
+testApiCalculateTurnaround
+                        Calculates Turnaround time (Tat) for when the
+                        sample was reported, when the repost was
+                        uploaded and when the sample was uploaded
+testApiDateList         Generates List of Dates
+testApiDatePlot         Generates Plots that include dates in the x
+                        axis
+testApiDownloadAll      Downloads the enteirity of the unique tests API
+testApiIsPositive       Extracts Positive test
+testApiMissingValues    Generates Plots that include dates in the x
+                        axis
+testApiMissingValuesCompact
+                        Generates Plots that include dates in the x
+                        axis
+testApiMonthAsColumn    Adds Columns Stating the months the test where
+                        Sampled, Reposted and Uploaded to Bioportal
+testApiPositivesOnTime
+                        Returns table With Number of tests recieved up
+                        to a specified dealy, by test type and result
+testApiPositivity       Returns Positivity for test available in
+                        TestApi Table
+testApiPositivityPlot   Plots Positivity results
+testApiSubset           Subsets DataFrame by any of the available
+                        parameters in TestApi Table
+testApiTestVolume       Generates Plots that include dates in the x
+                        axis
+testApiToDates          Manipulates Dates in to Date Objects

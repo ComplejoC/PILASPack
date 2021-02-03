@@ -2,10 +2,9 @@
 #'
 #' @param email Bioportal account email to be used to acces unique tests API
 #' @param password Bioportal account password to be used to acces unique tests API
-#' @import httr
-#' @import jsonlite
-#' @return (very large!!) data frame of all tests from unique tests API
+#' @import httr jsonlite
 #' @export
+#' @return (very large!!) data frame of all tests from unique tests API
 #' @examples
 #' testApiDownloadAll(email, password)
 #' Datos_all=testApiDownloadAll(my_email, my_password)
