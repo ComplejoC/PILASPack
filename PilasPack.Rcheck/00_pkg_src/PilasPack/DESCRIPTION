@@ -12,4 +12,4 @@ LazyData: true
 RoxygenNote: 7.1.1
 Depends: R (>= 2.10)
 NeedsCompilation: no
-Packaged: 2021-02-03 16:13:01 UTC; fanta
+Packaged: 2021-04-22 18:28:45 UTC; fanta

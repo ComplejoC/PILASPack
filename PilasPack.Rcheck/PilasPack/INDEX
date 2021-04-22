@@ -1,4 +1,3 @@
-LabTags                 Labtags
 helperFirstDayOfMonth   returns the first day of the month for a given
                         date
 helperMonthDelimiter    generates two vectors, one with the first day

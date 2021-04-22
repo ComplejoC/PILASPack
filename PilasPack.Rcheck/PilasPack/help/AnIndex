@@ -1,6 +1,5 @@
 helperFirstDayOfMonth	helperFirstDayOfMonth
 helperMonthDelimiter	helperMonthDelimiter
-LabTags	LabTags
 testApiCalculateTurnaround	testApiCalculateTurnaround
 testApiDateList	testApiDateList
 testApiDatePlot	testApiDatePlot

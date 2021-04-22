@@ -116,7 +116,14 @@ prepare_Rd: helperMonthDelimiter.Rd:22-24: Dropping empty section \examples
 * checking Rd metadata ... OK
 * checking Rd line widths ... OK
 * checking Rd cross-references ... OK
-* checking for missing documentation entries ... OK
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  'LabTags' 'ResultTags'
+Undocumented data sets:
+  'LabTags' 'ResultTags'
+All user-level objects in a package should have documentation entries.
+See chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
 * checking for code/documentation mismatches ... OK
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
@@ -177,4 +184,4 @@ Execution halted
 * checking for non-standard things in the check directory ... OK
 * checking for detritus in the temp directory ... OK
 * DONE
-Status: 1 ERROR, 1 WARNING, 2 NOTEs
+Status: 1 ERROR, 2 WARNINGs, 2 NOTEs

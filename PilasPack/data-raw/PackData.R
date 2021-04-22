@@ -6,4 +6,4 @@ file.create("R/data.R")
 
 LabTags <- read.csv(file = "data-raw/LabNames.csv")
 
-usethis::use_data(LabTags)
+usethis::use_data(LabTags, overwrite = TRUE)
