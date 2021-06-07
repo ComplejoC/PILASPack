@@ -1,340 +1,330 @@
-Nombre,ID,Tag,
-Immuno Reference Lab,99c1cb53-fab6-4a97-9aa6-55c8fd43e3b5,immuno,
-IMRL Clinical Lab,ab0910d7-59d2-4917-ba62-0135f46cc7cb,immuno,
-IMRL Clinical Lab,fab452eb-d24e-4a88-997e-f46cbf442dd7,immuno,
-IMRL Clinical Lab CDT Naguabo,0e5f3139-49f7-4f33-9a48-df1b934aae45,immuno,
-"AMMVR GROUP, INC",010ad59b-f5a6-44ba-bf8e-25310609e818,immuno,
-"AMMVR GROUP, INC",035ad9bf-ad2a-4c8b-9c38-bcddb37f1808,immuno,
-"AMMVR GROUP, INC",04bcef20-5937-4737-91cd-ba0e723311df,immuno,
-"AMMVR GROUP, INC",0641cc6c-c509-40a0-b754-dba9c652f2b2,immuno,
-"AMMVR GROUP, INC",06ef3c60-1d22-4137-b289-8116c3956e93,immuno,
-"AMMVR GROUP, INC",07a6d267-6c68-4d46-a9ec-beccfac24452,immuno,
-"AMMVR GROUP, INC",0a57f14a-825e-4558-bb1a-de03b98a63f6,immuno,
-"AMMVR GROUP, INC",0a7a4da5-26a9-4118-806b-8f2c4600aa89,immuno,
-"AMMVR GROUP, INC",0bf2d9e1-c824-406d-9de9-92199c18d1b1,immuno,
-"AMMVR GROUP, INC",0bfa4eeb-d1d3-4dea-911f-27faeec503a3,immuno,
-"AMMVR GROUP, INC",1008c90c-4142-4407-8c21-b2d8d08b6444,immuno,
-"AMMVR GROUP, INC",12f6ac13-d0b2-479f-ac36-04d884956a30,immuno,
-"AMMVR GROUP, INC",1350e882-ac6a-4bc2-be5c-8e76d74b4d8b,immuno,
-"AMMVR GROUP, INC",15411230-c067-40ce-a203-551d03fc7825,immuno,
-"AMMVR GROUP, INC",16bf9bfc-975f-4cf1-ac39-083802f5bbd6,immuno,
-"AMMVR GROUP, INC",16d8d496-ccb4-4de4-a1e3-8189cfc2358a,immuno,
-"AMMVR GROUP, INC",1830e5d8-4fb2-4d73-a735-8e8dbe6dbe70,immuno,
-"AMMVR GROUP, INC",19513895-a0fd-47e0-8cbf-5a876dd077fa,immuno,
-"AMMVR GROUP, INC",1aa75d44-884d-4b37-90d5-8de64dae89a9,immuno,
-"AMMVR GROUP, INC",1c3edef0-3a79-48a8-bf67-8129ba034278,immuno,
-"AMMVR GROUP, INC",1ce8b138-f967-4f45-9134-d1182fa872bd,immuno,
-"AMMVR GROUP, INC",1f06848e-4374-4406-b595-74317b6d491e,immuno,
-"AMMVR GROUP, INC",21109ebf-6698-4fe6-bc2f-b0b244acd878,immuno,
-"AMMVR GROUP, INC",22d9358e-b0f0-4850-b413-33d20b5a5ef2,immuno,
-"AMMVR GROUP, INC",2707f3b4-e7dd-40e1-88a0-620c1a882cfc,immuno,
-"AMMVR GROUP, INC",272ceceb-8e45-4950-bee9-cc76b0804bae,immuno,
-"AMMVR GROUP, INC",2b9da795-750d-43d1-bade-97e32c5bc548,immuno,
-"AMMVR GROUP, INC",2ca21190-e3ed-4a4e-95f6-6a1571fd6618,immuno,
-"AMMVR GROUP, INC",2d50bd98-353e-45a1-a4a3-3ddce454baaf,immuno,
-"AMMVR GROUP, INC",2de77408-e4c6-410e-bd4e-5dc37f391f74,immuno,
-"AMMVR GROUP, INC",2def87e1-ce34-403b-adee-f465f9ece60b,immuno,
-"AMMVR GROUP, INC",2f9d9c0b-60a8-46e0-9a9b-72560bdd6f52,immuno,
-"AMMVR GROUP, INC",30594f10-19c0-40e4-944d-08ce23469fdf,immuno,
-"AMMVR GROUP, INC",31ba1e25-74d5-48f0-8883-54b067900afc,immuno,
-"AMMVR GROUP, INC",32795131-c8cc-47b3-8e50-ec41fbc21d51,immuno,
-"AMMVR GROUP, INC",32b48805-1189-48cc-bfa0-ff45e4a57f13,immuno,
-"AMMVR GROUP, INC",32cdf905-31bb-4d42-b392-ac70404ea915,immuno,
-"AMMVR GROUP, INC",3581a604-6975-4a3b-8c02-aef79f761017,immuno,
-"AMMVR GROUP, INC",38e0eedd-15e4-44ff-b455-b8d090d9acac,immuno,
-"AMMVR GROUP, INC",392105be-876c-4a84-b0b0-3c8f007cdd7d,immuno,
-"AMMVR GROUP, INC",39235091-d7f8-4d7e-bb86-ba725be69f9f,immuno,
-"AMMVR GROUP, INC",39cd5c2b-8087-4711-bf73-e97299c0371e,immuno,
-"AMMVR GROUP, INC",3d8c6742-3ac8-416c-86ac-dd497efb50fd,immuno,
-"AMMVR GROUP, INC",3e5a5205-2f7c-4109-9d78-7cf88de4c62e,immuno,
-"AMMVR GROUP, INC",3eab74ec-ddf6-4aeb-9d34-3bdf777aba48,immuno,
-"AMMVR GROUP, INC",3fe3408a-4c0b-4860-bb4d-0dadd09c1e2d,immuno,
-"AMMVR GROUP, INC",4049afb8-cf42-4edf-9fa6-9a76eac7f6fe,immuno,
-"AMMVR GROUP, INC",46e0fc26-3e29-4bdf-9bef-14e9426b1e2f,immuno,
-"AMMVR GROUP, INC",47e536ea-4d2c-4907-901c-8cdff444e984,immuno,
-"AMMVR GROUP, INC",485f1e2a-1d00-48ad-8f50-825612ecc661,immuno,
-"AMMVR GROUP, INC",4a3b9ba8-2a3b-42a1-aaa9-82a3d5d66fc5,immuno,
-"AMMVR GROUP, INC",4a955a45-fd42-4e7a-8aaa-b8ca93a15411,immuno,
-"AMMVR GROUP, INC",4d325b3a-92e9-4d3f-af44-92232106e450,immuno,
-"AMMVR GROUP, INC",4d567212-df43-41f7-af9d-dc43615c9c39,immuno,
-"AMMVR GROUP, INC",4d6f1048-1614-44b4-8280-9118700f127e,immuno,
-"AMMVR GROUP, INC",50c3c33d-91b6-42e5-93a4-931a7371d3f9,immuno,
-"AMMVR GROUP, INC",53b845c4-458a-4f18-a879-18e212904964,immuno,
-"AMMVR GROUP, INC",56c923b9-c63c-4515-a4ab-d433e8b82095,immuno,
-"AMMVR GROUP, INC",58622ef2-f031-456f-877d-2b249ed54e60,immuno,
-"AMMVR GROUP, INC",59b65fd8-0bf9-4ef7-be30-ae2e793ea4cc,immuno,
-"AMMVR GROUP, INC",5edef487-1766-420e-abe6-b39f11a11ac5,immuno,
-"AMMVR GROUP, INC",63b95282-e4c5-43b5-aa2f-401429231f4f,immuno,
-"AMMVR GROUP, INC",65644719-a312-4234-a40c-55e56f663075,immuno,
-"AMMVR GROUP, INC",65d690a1-f857-488f-91e0-c2193c22a9cf,immuno,
-"AMMVR GROUP, INC",6805ea79-f6d0-4d04-838d-84cb3b827460,immuno,
-"AMMVR GROUP, INC",68b3ca55-8e48-470f-a05c-5c9a0dc767e0,immuno,
-"AMMVR GROUP, INC",69116a74-a14d-4b17-b10a-f00e9e6bbb3d,immuno,
-"AMMVR GROUP, INC",6bc62f45-7ff1-4035-8a7b-51eb63fa35ee,immuno,
-"AMMVR GROUP, INC",6c26e722-1de7-4a6e-a657-31bd681156f8,immuno,
-"AMMVR GROUP, INC",6d5a00f0-c46e-4f61-ab0e-cf69f85e6781,immuno,
-"AMMVR GROUP, INC",6e6420ae-30de-45ee-929d-92cc822f5f36,immuno,
-"AMMVR GROUP, INC",6f9ca9e8-bd43-4eb9-a35a-b6f9419e640d,immuno,
-"AMMVR GROUP, INC",6fedd88b-305f-4969-a718-adf3f3f2705a,immuno,
-"AMMVR GROUP, INC",700d1351-4b41-4d31-957b-23a664a46e6e,immuno,
-"AMMVR GROUP, INC",7125351c-562c-47e4-bb97-f3802cb69a00,immuno,
-"AMMVR GROUP, INC",71e9f53f-44b2-478d-933d-5ace13b2fe29,immuno,
-"AMMVR GROUP, INC",72485690-50e7-43f2-850c-e7d8ef68dfdf,immuno,
-"AMMVR GROUP, INC",74bcb865-c2a9-49a9-9644-a9c078122707,immuno,
-"AMMVR GROUP, INC",75be5c1d-2ba4-438b-b5c3-e499d4c9ea4e,immuno,
-"AMMVR GROUP, INC",75ec06f5-d37d-4431-b6dd-1a30671b9774,immuno,
-"AMMVR GROUP, INC",797c0009-6f0b-43cb-b087-e7c4b507d3d0,immuno,
-"AMMVR GROUP, INC",7c2b73d4-7acc-4ce5-866a-66a351ce95a1,immuno,
-"AMMVR GROUP, INC",7d36994f-eb25-47e8-8031-a60d4c9f688c,immuno,
-"AMMVR GROUP, INC",7e3069d1-aef3-40a5-a60a-817fdac43db8,immuno,
-"AMMVR GROUP, INC",7f1eee94-7805-4b0e-891a-141fddae8788,immuno,
-"AMMVR GROUP, INC",81ae239a-d6d1-4b1a-aec7-61b027a11f48,immuno,
-"AMMVR GROUP, INC",824f464c-da8c-4444-8e23-a8cc19c2592a,immuno,
-"AMMVR GROUP, INC",828c4de7-7bec-46aa-aee4-193c7f095334,immuno,
-"AMMVR GROUP, INC",83e924cc-57dd-4af6-9f39-dfe7b127a8a2,immuno,
-"AMMVR GROUP, INC",862fdc5a-63cc-45f1-91b6-9a0c71578653,immuno,
-"AMMVR GROUP, INC",885bab26-b7ac-4256-92c2-d446c2ac8cb9,immuno,
-"AMMVR GROUP, INC",8860235e-b24d-465a-8773-96b18ac523f9,immuno,
-"AMMVR GROUP, INC",88dc5ab2-1b4b-45a7-9a56-42063a941434,immuno,
-"AMMVR GROUP, INC",8df28254-3f48-42f3-a05e-872c716b93cb,immuno,
-"AMMVR GROUP, INC",8e736572-0b24-43cf-a23d-a7211069f399,immuno,
-"AMMVR GROUP, INC",8eca42df-409b-4457-856f-fc16c69d65f7,immuno,
-"AMMVR GROUP, INC",901702f4-6e6c-4ed5-9b25-6eb8a251d7d3,immuno,
-"AMMVR GROUP, INC",922895cf-811c-4b74-a6ae-0104cca1650c,immuno,
-"AMMVR GROUP, INC",9254abef-d513-4599-a353-7dabbca80862,immuno,
-"AMMVR GROUP, INC",928f025a-a14d-4b3b-84f9-005b2cc05310,immuno,
-"AMMVR GROUP, INC",932332b2-2d7f-4f33-be49-4f6829263e88,immuno,
-"AMMVR GROUP, INC",94331085-ec44-4a44-9a22-967690ebcb92,immuno,
-"AMMVR GROUP, INC",943d085f-2410-4f3d-b7ba-90be689e9ae7,immuno,
-"AMMVR GROUP, INC",9476cf95-541e-422f-ae78-4bc00f921d40,immuno,
-"AMMVR GROUP, INC",980d072d-707d-46e4-bd4e-b519c45dfdbe,immuno,
-"AMMVR GROUP, INC",9a6c454e-7adc-4e40-87f0-44a8db8ba2f8,immuno,
-"AMMVR GROUP, INC",9bc5067f-2d81-493e-9ba0-9d1b42ad2e75,immuno,
-"AMMVR GROUP, INC",9c7a399f-eebd-4f37-ad95-8c6f384cc611,immuno,
-"AMMVR GROUP, INC",9e0c4cf5-d309-4ca5-9b24-201228003469,immuno,
-"AMMVR GROUP, INC",a32423a7-45ad-4724-a15b-59176bc2d1e1,immuno,
-"AMMVR GROUP, INC",a4d20102-1574-407b-9566-a787f3c0a3e8,immuno,
-"AMMVR GROUP, INC",a73a7967-b4e1-4986-81dd-922eaa5f7880,immuno,
-"AMMVR GROUP, INC",a893c6d0-7bd0-49e2-b290-0f681de803c8,immuno,
-"AMMVR GROUP, INC",a89d3ac1-f565-4764-be86-8a2db9530ba9,immuno,
-"AMMVR GROUP, INC",ac2a3fa4-42ba-44cd-8105-7c0cf445bafb,immuno,
-"AMMVR GROUP, INC",afc142be-d1ec-4241-9c7e-7b5f56c5d0d2,immuno,
-"AMMVR GROUP, INC",b1daec0a-7c7c-4bcd-95c1-c73d92071afd,immuno,
-"AMMVR GROUP, INC",b272bf28-bd35-4a1c-a7f4-7c1b1c70e4cd,immuno,
-"AMMVR GROUP, INC",b3f1be39-8177-4450-a5a0-f8cff87b31d0,immuno,
-"AMMVR GROUP, INC",b60f8772-82c8-40df-9654-386c1a36d9f4,immuno,
-"AMMVR GROUP, INC",b80ad48f-6704-4106-8d2a-6a3f3841b0f8,immuno,
-"AMMVR GROUP, INC",bb25a7be-56e2-438c-8aea-c07544119a4e,immuno,
-"AMMVR GROUP, INC",bd5009ed-1cbd-4fdc-aece-6ecab02c8b22,immuno,
-"AMMVR GROUP, INC",bf16d1aa-aa7b-44d2-b4d9-e3c88d7bb0e7,immuno,
-"AMMVR GROUP, INC",bf6278a0-c584-485b-891d-f6100eb64709,immuno,
-"AMMVR GROUP, INC",c0b045b4-cf63-4a5b-8998-df620f2bddef,immuno,
-"AMMVR GROUP, INC",c119ae8e-79d5-4cca-a1e6-3ec305997f07,immuno,
-"AMMVR GROUP, INC",c2221b57-9f55-431c-b437-7cb6f3b9f163,immuno,
-"AMMVR GROUP, INC",c4b79d2b-1e29-4ef9-bbb3-e56274cff41c,immuno,
-"AMMVR GROUP, INC",c5433207-6806-4c5b-8ad5-e8df55277da8,immuno,
-"AMMVR GROUP, INC",ca9dc7db-d53f-4403-9461-6a2d90374558,immuno,
-"AMMVR GROUP, INC",ca9e40f1-66bd-4fe5-b92e-91815b0affc9,immuno,
-"AMMVR GROUP, INC",caffaea7-f6f7-46ad-96b4-ddf777528147,immuno,
-"AMMVR GROUP, INC",cc07a582-16aa-4501-a97b-446cb3742c4b,immuno,
-"AMMVR GROUP, INC",ccf5b169-099c-4210-87af-0cc2fe54d16b,immuno,
-"AMMVR GROUP, INC",ce80a29d-daeb-401c-96cc-9c813c304d7e,immuno,
-"AMMVR GROUP, INC",cf1e895d-115b-4b34-a6ff-547a89968141,immuno,
-"AMMVR GROUP, INC",cfb04d3d-0566-4333-b48f-f0452ff2d4b3,immuno,
-"AMMVR GROUP, INC",d0462845-2199-47e6-ad6e-68b3db33a983,immuno,
-"AMMVR GROUP, INC",d1a03dee-a1e2-4e4c-92eb-10a5d8dc4f8d,immuno,
-"AMMVR GROUP, INC",d1c61559-1e8f-4d73-a12d-1cf4d9971020,immuno,
-"AMMVR GROUP, INC",d4bb9c4f-4c47-478a-8a5e-b280ce5d5dcf,immuno,
-"AMMVR GROUP, INC",d5075e85-d046-4e09-9093-a61938a5e124,immuno,
-"AMMVR GROUP, INC",d5ab86ce-8219-4ed0-a280-4a9096dd52cc,immuno,
-"AMMVR GROUP, INC",d9ef9f10-f520-4a45-b506-07f783221da2,immuno,
-"AMMVR GROUP, INC",dcf865c8-fee3-4831-a4f1-c0f42a51675f,immuno,
-"AMMVR GROUP, INC",ddb20f79-9314-4694-b61b-808b5a60971b,immuno,
-"AMMVR GROUP, INC",e22d98e3-eb75-4095-874e-52d30dc94a6e,immuno,
-"AMMVR GROUP, INC",e5df7bdf-9878-4c09-a0a6-b829dfe72ed3,immuno,
-"AMMVR GROUP, INC",e649f199-caa3-40cf-bcad-c59f2e74364a,immuno,
-"AMMVR GROUP, INC",e8e36229-5c79-4365-81b2-ee3321f6b67a,immuno,
-"AMMVR GROUP, INC",ea1fe2dc-0aa9-444b-a523-fed89f4a8b9e,immuno,
-"AMMVR GROUP, INC",eaaef132-e10e-41d7-9cb4-24b4a1f34325,immuno,
-"AMMVR GROUP, INC",ebfdcf32-1054-473e-ac34-c729f1d0d80c,immuno,
-"AMMVR GROUP, INC",ec0600a9-e940-4265-8701-3f80d0e1bb66,immuno,
-"AMMVR GROUP, INC",ec55d5a4-4165-4ec4-b842-dac55a3f44f4,immuno,
-"AMMVR GROUP, INC",ee9867e7-b83b-47f2-91a6-926cebd56484,immuno,
-"AMMVR GROUP, INC",f01b324a-1d02-4f56-9056-29460f5f2e53,immuno,
-"AMMVR GROUP, INC",f02bcc9d-10e4-462d-b974-b60ddfc966a3,immuno,
-"AMMVR GROUP, INC",f0740b6b-97e5-42f4-8344-762335062905,immuno,
-"AMMVR GROUP, INC",f0fe4339-7fb5-49fc-9856-8ac01b3ed1ca,immuno,
-"AMMVR GROUP, INC",f1274022-2ad6-4c13-a6d0-3524a0004ecd,immuno,
-"AMMVR GROUP, INC",f1b76fc0-4232-4378-a1ff-bfe37c20c970,immuno,
-"AMMVR GROUP, INC",f2f496e5-5025-4da8-b18e-112131edea80,immuno,
-"AMMVR GROUP, INC",f3c041de-3752-4f75-a5ec-c5179f841de0,immuno,
-"AMMVR GROUP, INC",f3f86252-ad0f-4bad-8dae-88dd7a7af7c0,immuno,
-"AMMVR GROUP, INC",f4e44322-b84f-40ce-8437-08ff57093f23,immuno,
-"AMMVR GROUP, INC",f5a3a4bd-d9f2-4ef4-b44b-b2f3c0856f41,immuno,
-"AMMVR GROUP, INC",f5f09259-cde2-4e94-8026-a57420b563ed,immuno,
-"AMMVR GROUP, INC",f73a683b-2a06-4791-a8f3-38ec0f96dbb3,immuno,
-"AMMVR GROUP, INC",f76e9938-5f7c-4dbe-8ba4-61ba723a1e8d,immuno,
-"AMMVR GROUP, INC",fa79b51b-3a0e-4db1-a5df-7f7ed25ddadf,immuno,
-"AMMVR GROUP, INC",fd65809d-cc23-4252-baec-2d630a291053,immuno,
-"AMMVR GROUP, INC",ffa3cf2a-c568-401d-8d6e-d3968dffbfe7,immuno,
-"AMMVR GROUP, INC.",11f6ad0a-69df-468b-95f0-560412a52cb1,immuno,
-"AMMVR GROUP, INC.",275d52d9-2d36-400b-94c2-8a044bf0e5ec,immuno,
-"AMMVR GROUP, INC.",2cd20672-f5f7-4984-b901-6355bf5efb1f,immuno,
-"AMMVR GROUP, INC.",374135db-8d0f-45a1-9a74-dfbe59436e83,immuno,
-"AMMVR GROUP, INC.",44fc08f1-cc8d-424d-8bec-0241f351fc2c,immuno,
-"AMMVR GROUP, INC.",4f9db2e3-ca84-4167-878e-3d1fbf9550be,immuno,
-"AMMVR GROUP, INC.",53c07bed-bb79-43fc-be0b-ae7d81e1346e,immuno,
-"AMMVR GROUP, INC.",572e0361-dc62-43b8-adf6-aa1a4da735e9,immuno,
-"AMMVR GROUP, INC.",9914dc54-4ce1-45d6-b37e-149a01c3732a,immuno,
-"AMMVR GROUP, INC.",a87b831a-8d62-4657-a734-043a8756c884,immuno,
-"AMMVR GROUP, INC.",b990bf69-6443-4057-9cb2-1b4288600d7f,immuno,
-"AMMVR GROUP, INC.",fd1b47b4-96e8-4077-a813-08aec013914c,immuno,
-"AMMVR GROUP, INC.",fe645926-ab9e-48b9-a6f7-23f2a36ced00,immuno,
-Quest Caparra Reference,4177212c-f111-467f-bcbf-2aaeff00f1c7,quest,
-Quest Diagnostics - Caparra,65f49006-5a28-42a0-885d-0cedcc43451a,quest,
-Quest Diagnostics - Maramar Plaza,665f5c46-5748-460f-b1a2-8063f23d091d,quest,
-Quest Diagnostics Barceloneta,31f5458a-9fd2-4929-afa6-87b62993fe86,quest,
-Quest Diagnostics Caguas 1,8f46d56d-68d4-469b-80cf-461cb94aa18d,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,0c128293-5747-4114-8e7b-6d4b2dc4985b,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,2375bb36-d125-4d2a-8ee6-07d759d8562e,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,23792021-5476-438d-a9fc-ca3dc16602f8,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,27b071a6-cb61-4995-8891-03ce9ff3df02,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,2bce6b79-91ac-443d-b228-2633564d6a99,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,2fd18973-4931-4f2f-b281-012e8d4940cc,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,3131c700-3e1f-4af6-8c49-fd08a6ce2f82,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,332c2d1c-78c9-4fcb-859e-513920c3b3bd,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,36286924-28cf-4ed2-9eaf-9f93cee25025,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,37a77abd-dc39-4235-a164-282cca02382e,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,4909288c-d248-4d39-a388-5004115e9f48,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,4971edfc-9dda-48b6-9ffc-2bdc6b0ee5a5,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,4e369ecf-5361-4aff-b49f-9fe3d69bee14,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,56134051-922d-42c2-93a3-efd919c20f36,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,5dda20be-d1f2-407e-b796-7e51b1792338,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,61eb9eab-ec96-4762-ac36-023e3de5357d,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,6670469a-4bdf-4b99-96c9-0caa4d19b7cb,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,6e0f8202-e5ec-4c97-b245-58be32629511,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,773cd4bf-d295-4863-a1aa-abc6ecada6ad,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,78dbf5c1-cc32-4013-8ac4-f86121cfa453,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,7b4a4d59-614b-4785-8e8a-b7dc3be31956,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,80390542-1302-47be-a8ad-c09ce249df53,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,833a498c-425b-461c-a051-d91f77ba2242,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,900513d7-798c-4944-90ec-ae00f7e0a18f,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,a76c7b2f-e950-485f-9244-4980842039a0,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,aa514c77-8fa4-4e1a-9fb5-15a36ea3cbf1,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,b32ccece-5968-412a-96d1-44433bbb2371,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,bec3fcb7-f749-40b9-8edb-aaed5a5f4cf5,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,bf2adaf8-58c2-408d-85f5-feed3d32d31f,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,c25c1493-28e4-4ada-bcba-226d6f5075e4,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,d64f2553-26e7-43c4-8758-b8b8e3d68409,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,da3ee612-e8da-4711-9713-1c6da853cadc,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,dc25de67-5252-4875-9178-cfdb593824d8,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,e1500f19-4b00-4425-b8ab-d7bfda5c649e,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,e3d5b041-24a9-48c4-911c-0f01fd746e51,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,e672af01-063e-4383-8172-334d8af91520,quest,
-QUEST DIAGNOSTICS CLINICAL LABORATORIES INC,ee259eb3-74eb-4c97-80a6-1cc92959051c,quest,
-Quest Diagnostics Clinical Laboratory,ab029e8b-be58-4e18-942b-62bc48c5f1c6,quest,
-Quest Diagnostics Laboratorio De Analisis Clinico,9e93fb3b-a1e2-4bd7-9b32-5582d901c2ed,quest,
-QUEST DIAGNOSTICS LLC IL,aaffdf89-e749-403b-b8c2-4ccee6cb7d48,quest,
-"QUEST DIAGNOSTICS NICHOLS INSTITUTE, INC.",5f468a6a-2d88-4a2d-84c3-61a286c79f2d,quest,
-QUEST DIAGNOSTICS OF PUERTO RICO,ad3d183a-1c93-4298-b276-cdc8852cae05,quest,
-QUEST DIAGNOSTICS OF PUERTO RICO INC,7329d962-224b-4f48-8376-e857dcfa82bf,quest,
-Quest Diagnostics Paoli,009025c6-f20d-464c-8ca2-6d8c4ed888f2,quest,
-Quest Diagnostics Santa Cruz,3e77ec58-25d5-4b19-947f-fdbafeb08ff6,quest,
-Quest Diagnostics Santa Rosa,5b609c12-4b90-444e-b911-95b640976cb6,quest,
-Quest Diagnostics Vega Alta,2db6ea75-4b51-4a68-9295-5a3c6d535d0e,quest,
-Laboratorio Clinico Toledo,50115a93-580f-48c5-8729-37b8eefd17be,toledo,
-Laboratorio Clinico Toledo,9b166f96-7d03-44ca-963a-6da489ffccad,toledo,
-Laboratorio Clinico Toledo,c821fb79-c4e8-454d-918b-3a2e3787cfa3,toledo,
-Laboratorio Clinico Toledo,c90914d9-6fc0-4d82-a475-ac91a513633e,toledo,
-LABORATORIO CLINICO TOLEDO,047b9571-f837-40f2-a544-3273b635d74a,toledo,
-LABORATORIO CLINICO TOLEDO,2849a463-ab5d-4f8d-9353-b65889d792a2,toledo,
-LABORATORIO CLINICO TOLEDO,2e99fe33-0952-4ee7-9820-47552c46e14c,toledo,
-BORINQUEN DIAGNOSTICS INC,95563a3b-e893-4224-96c6-7cab26a28e22,borinquen,
-Laboratorio Clínico Borinquen,6530f15f-bfef-48c6-99ef-4abc1aeef738,borinquen,
-Laboratorio Clínico Borinquen - Alejandrino,2ca4bf89-b323-4e62-8bac-7ffad8099736,borinquen,
-Laboratorio Clínico Borinquen - Avenida Muñoz Marín,652c63d9-4cbe-4a67-ac4e-8f96e0d75436,borinquen,
-LABORATORIO CLINICO BORINQUEN - AVENIDA PAVIA FERNANDEZ,50b4d852-561f-4ca9-8252-1d9155e0739f,borinquen,
-Laboratorio Clínico Borinquen - Avenida Pavía Fernández,ec0384bd-7d63-431a-9c3f-b07d7ea17ec1,borinquen,
-Laboratorio Clínico Borinquen - Bairoa,559556ba-7c4d-474b-91d2-e18324a10ad1,borinquen,
-Laboratorio Clínico Borinquen - Borinquen Towers,822ca00a-0fc4-4d3c-b31d-6a83ec595490,borinquen,
-Laboratorio Clínico Borinquen - Caguas Ralph,a3c9cf80-50c9-4b35-998b-a282896790e7,borinquen,
-Laboratorio Clínico Borinquen - Centro Europa,74a6742f-4292-4cf1-bfa0-68ce424c58ca,borinquen,
-Laboratorio Clínico Borinquen - Cidra Pueblo,8607eecd-ee8a-489c-97a1-a8de9961a2c9,borinquen,
-Laboratorio Clínico Borinquen - Clínica Las Américas,02dcfc5d-32c3-4a03-adae-fd3c382d126e,borinquen,
-Laboratorio Clínico Borinquen - Dorado,63919372-caa4-4c53-8324-9af5372dbeb7,borinquen,
-Laboratorio Clínico Borinquen - Drive-In,d01f4303-8e7a-43b8-9c69-f8892e010f6b,borinquen,
-Laboratorio Clínico Borinquen - Escorial,6ece84f0-a35c-4b48-b3e1-3158aeb1891e,borinquen,
-Laboratorio Clínico Borinquen - Europa,0f1547c4-e6db-45cb-bf7c-1a1ecb7eae80,borinquen,
-Laboratorio Clínico Borinquen - Forest Hills,5d9f9d79-88df-42da-94a9-95b5f21347fb,borinquen,
-LABORATORIO CLINICO BORINQUEN - GARDEN HILLS PLAZA,b0764283-b06b-402b-805e-4a897f808509,borinquen,
-Laboratorio Clínico Borinquen - Garden Hills Plaza,c0db0a13-91d8-4be7-99d2-ab80756d0f27,borinquen,
-Laboratorio Clínico Borinquen - Gurabo Plaza,50e7c80c-0cb1-470c-969f-df4abfb35e57,borinquen,
-Laboratorio Clínico Borinquen - Hato Rey,b5ff3cbc-afba-4d1a-9451-562f08c786f8,borinquen,
-Laboratorio Clínico Borinquen - Hermanas Dávila,3abed425-9f21-4188-9bfa-e95b58b7a379,borinquen,
-Laboratorio Clínico Borinquen - Humacao,17fb0e30-c79d-4747-87b0-57b165622251,borinquen,
-Laboratorio Clínico Borinquen - Iturregui Plaza,1968f2b6-f34d-4efe-8559-850051656755,borinquen,
-Laboratorio Clínico Borinquen - Las Lomas,b89a3d64-2d9c-4e2c-8a27-e6794bc7a95f,borinquen,
-Laboratorio Clínico Borinquen - Los Prados,33d0943b-5be8-416e-907e-43e200f3f1a6,borinquen,
-Laboratorio Clínico Borinquen - Ocean Park,f7952dfc-16b1-4d19-bfff-96e37f8e1d91,borinquen,
-Laboratorio Clínico Borinquen - Plaza Esmeralda,c4a8fce0-646b-42c1-aa13-cae6548ea4e3,borinquen,
-Laboratorio Clínico Borinquen - Río Hondo,81549a21-5eb7-44c0-b0cf-d0ceac11cb50,borinquen,
-Laboratorio Clínico Borinquen - San Francisco,0e7b6505-bb5f-4a0d-bbbe-668af45367e5,borinquen,
-Laboratorio Clínico Borinquen - Winston Churchill,b6daf069-7f2a-4ab3-bfae-4666658c91f0,borinquen,
-Laboratorio Clínico Borinquen Consolidated Medical Plaza,3272f471-0666-49e7-aab7-1225e6110ff2,borinquen,
-LABORATORIO CLINICO BORINQUEN HERMANAS DAVILA,21496246-b22c-4f13-955c-18a0f07f569a,borinquen,
-Laboratorio Clínico Borinquen Quadrangle Medical Building,62f5b2f5-2dd9-4350-863f-18042bdf11ba,borinquen,
-LABORATORIO CLINICO BORINQUEN-GURABO PLAZA,a65e3987-36f8-40ee-be10-9eaa37f0c706,borinquen,
-LABORATORIO CLINICO BORINQUEN-SAN FRANCISCO,523faa2c-f8ed-4a75-a9a2-a1430b69eaad,borinquen,
-HRP Labs-Laboratorio Clinico,dbc8252e-9035-4cec-a78a-3d6d20aede61,hrp,
-Hato Rey Pathology,959b9ce8-bb72-494c-9d18-52e32efa41a6,hrp,
-Laboratorio Clínico Borinquen - Hato Rey,b5ff3cbc-afba-4d1a-9451-562f08c786f8,hrp,
-Laboratorio Clinico y Molecular Southern Pathology,573ae399-27e7-44e9-a3b9-c14bcf05ec7c,southern,
-Southern Pathology Services,0827dd8a-91af-4ad5-ad10-0e9122f5b260,southern,
-Inno Diagnostics,9f49b14c-58e9-40e9-85e0-f68654faa0d9,inno,
-LAB CLINICO Y REFERENCIA ESCUELA MEDICINA PONCE,c4bcb1b1-b545-45e0-834e-4a89207fffc0,inno,
-Laboratorio Clínico y de Referencia Escuela Medicina de Ponce,c56f0276-03fd-4d8f-b277-2498b44db63d,inno,
-Laboratorio Clinico Noy & Reference,63572b60-5e24-4940-ab25-9b92fd45ad47,noy,
-LABORATORIO DE PATOLOGIA DR NOY,1d23de5a-bcde-4166-a882-96c7f887ce31,noy,
-LABORATORIO DE PATOLOGIA DR NOY,28f10722-cc9a-4d04-bf9b-8320b47f5ef2,noy,
-LABORATORIO DE PATOLOGIA DR NOY,39ece4e8-bd57-447b-9392-5fce9593bcb3,noy,
-LABORATORIO DE PATOLOGIA DR NOY,3f8dff87-e912-43d8-968a-94b8f0759e35,noy,
-LABORATORIO DE PATOLOGIA DR NOY,49e6fc42-906e-49eb-b0e1-b79beb34a7f6,noy,
-LABORATORIO DE PATOLOGIA DR NOY,5c07872d-f8e6-46ea-9879-048bdf8d7892,noy,
-LABORATORIO DE PATOLOGIA DR NOY,5c8ea3b1-83ba-435e-a499-34297ad48cb1,noy,
-LABORATORIO DE PATOLOGIA DR NOY,725518b0-b4d9-4b4d-a2bc-283fae2282fe,noy,
-LABORATORIO DE PATOLOGIA DR NOY,73e6e085-aab5-4195-b497-9538f2f188f2,noy,
-LABORATORIO DE PATOLOGIA DR NOY,763e9be8-9944-4e93-99f0-77a6d4108144,noy,
-LABORATORIO DE PATOLOGIA DR NOY,78d6de02-7ddc-4c50-ba71-9d1d52c64547,noy,
-LABORATORIO DE PATOLOGIA DR NOY,7d7b55cc-d579-4501-ae62-a27238eacff0,noy,
-LABORATORIO DE PATOLOGIA DR NOY,8e043534-027d-46c9-ba9c-1c212dd97d36,noy,
-LABORATORIO DE PATOLOGIA DR NOY,ab52f657-48ea-43e1-ad95-bcaa35d41b3e,noy,
-LABORATORIO DE PATOLOGIA DR NOY,c717db61-6e81-4614-a269-a4668a5fa864,noy,
-LABORATORIO DE PATOLOGIA DR NOY,d839d9bb-2ba9-4535-aaf0-b716bcf3eed9,noy,
-LABORATORIO DE PATOLOGIA DR NOY,f5c88036-cd9b-468f-877d-542974795159,noy,
-Puerto Rico Pathology Laboratory,1d8da442-4ebc-4d2d-82dc-a48c1143722b,puerto rico pathology,
-"LABORATORIO CLINICO MARTIN II, INC.",50d08829-e716-4cf4-8fdf-7711ff7fcbb2,martin,
-LABORATORIO CLINICO MARTIN INC,c5cf8106-12ee-45d8-b33d-374ca9dde812,martin,
-Biological and Chemical Emergency Laboratory (BCEL),c958df32-9fa7-4a4c-ba3b-08b47cae80fc,bcel,
-COREPLUS SERVICIOS CLINICOS Y PATOLOGICOS LLC,d0700b4f-f41d-47ab-8bab-5f51009c34be,coreplus,
-COREPLUS SERVICIOS CLINICOS Y PATOLOGICOS LLC,dbead5cd-f189-45d6-8bf1-360b06d4f3f1,coreplus,
-Laboratorio CorePlus Servicios Clínicos y Patológicos,7b8ef2c9-5dc7-4e9f-adce-2df02c6602cf,coreplus,
-PPMI-RCM,ad64d5fa-1e14-48f2-94c7-80bb08f82eba,rcm,
-RECINTO DE CIENCIAS MEDICAS,ed95bae9-5f10-48f1-bd69-e58ded21ef29,rcm,
-RECINTO DE CIENCIAS MEDICAS-LABORATORIO PATOLOGIA,9bcc0c2d-4de3-41f7-b48d-dd149ad75b69,rcm,
-Departamento de Salud Oficial, 8ce3f0ab-639a-42c5-8450-1dc72982d003,PRHD,
-Puerto Rico Department of Health - Epidemiology Department,941db63c-8e4b-47df-bc51-f0cee32efbba,PRHD,
-Laboratorio Clinico M Landron,143a1a86-29ef-42f6-ae5e-e20f39276f02,Landron,
-CMT Group,eb9a476d-adec-45c3-b75c-555d6faa2e87,CMT,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
+"","Nombre","ID","Tag"
+"1","Immuno Reference Lab","99c1cb53-fab6-4a97-9aa6-55c8fd43e3b5","immuno"
+"2","IMRL Clinical Lab","ab0910d7-59d2-4917-ba62-0135f46cc7cb","immuno"
+"3","IMRL Clinical Lab","fab452eb-d24e-4a88-997e-f46cbf442dd7","immuno"
+"4","IMRL Clinical Lab CDT Naguabo","0e5f3139-49f7-4f33-9a48-df1b934aae45","immuno"
+"5","AMMVR GROUP, INC","010ad59b-f5a6-44ba-bf8e-25310609e818","immuno"
+"6","AMMVR GROUP, INC","035ad9bf-ad2a-4c8b-9c38-bcddb37f1808","immuno"
+"7","AMMVR GROUP, INC","04bcef20-5937-4737-91cd-ba0e723311df","immuno"
+"8","AMMVR GROUP, INC","0641cc6c-c509-40a0-b754-dba9c652f2b2","immuno"
+"9","AMMVR GROUP, INC","06ef3c60-1d22-4137-b289-8116c3956e93","immuno"
+"10","AMMVR GROUP, INC","07a6d267-6c68-4d46-a9ec-beccfac24452","immuno"
+"11","AMMVR GROUP, INC","0a57f14a-825e-4558-bb1a-de03b98a63f6","immuno"
+"12","AMMVR GROUP, INC","0a7a4da5-26a9-4118-806b-8f2c4600aa89","immuno"
+"13","AMMVR GROUP, INC","0bf2d9e1-c824-406d-9de9-92199c18d1b1","immuno"
+"14","AMMVR GROUP, INC","0bfa4eeb-d1d3-4dea-911f-27faeec503a3","immuno"
+"15","AMMVR GROUP, INC","1008c90c-4142-4407-8c21-b2d8d08b6444","immuno"
+"16","AMMVR GROUP, INC","12f6ac13-d0b2-479f-ac36-04d884956a30","immuno"
+"17","AMMVR GROUP, INC","1350e882-ac6a-4bc2-be5c-8e76d74b4d8b","immuno"
+"18","AMMVR GROUP, INC","15411230-c067-40ce-a203-551d03fc7825","immuno"
+"19","AMMVR GROUP, INC","16bf9bfc-975f-4cf1-ac39-083802f5bbd6","immuno"
+"20","AMMVR GROUP, INC","16d8d496-ccb4-4de4-a1e3-8189cfc2358a","immuno"
+"21","AMMVR GROUP, INC","1830e5d8-4fb2-4d73-a735-8e8dbe6dbe70","immuno"
+"22","AMMVR GROUP, INC","19513895-a0fd-47e0-8cbf-5a876dd077fa","immuno"
+"23","AMMVR GROUP, INC","1aa75d44-884d-4b37-90d5-8de64dae89a9","immuno"
+"24","AMMVR GROUP, INC","1c3edef0-3a79-48a8-bf67-8129ba034278","immuno"
+"25","AMMVR GROUP, INC","1ce8b138-f967-4f45-9134-d1182fa872bd","immuno"
+"26","AMMVR GROUP, INC","1f06848e-4374-4406-b595-74317b6d491e","immuno"
+"27","AMMVR GROUP, INC","21109ebf-6698-4fe6-bc2f-b0b244acd878","immuno"
+"28","AMMVR GROUP, INC","22d9358e-b0f0-4850-b413-33d20b5a5ef2","immuno"
+"29","AMMVR GROUP, INC","2707f3b4-e7dd-40e1-88a0-620c1a882cfc","immuno"
+"30","AMMVR GROUP, INC","272ceceb-8e45-4950-bee9-cc76b0804bae","immuno"
+"31","AMMVR GROUP, INC","2b9da795-750d-43d1-bade-97e32c5bc548","immuno"
+"32","AMMVR GROUP, INC","2ca21190-e3ed-4a4e-95f6-6a1571fd6618","immuno"
+"33","AMMVR GROUP, INC","2d50bd98-353e-45a1-a4a3-3ddce454baaf","immuno"
+"34","AMMVR GROUP, INC","2de77408-e4c6-410e-bd4e-5dc37f391f74","immuno"
+"35","AMMVR GROUP, INC","2def87e1-ce34-403b-adee-f465f9ece60b","immuno"
+"36","AMMVR GROUP, INC","2f9d9c0b-60a8-46e0-9a9b-72560bdd6f52","immuno"
+"37","AMMVR GROUP, INC","30594f10-19c0-40e4-944d-08ce23469fdf","immuno"
+"38","AMMVR GROUP, INC","31ba1e25-74d5-48f0-8883-54b067900afc","immuno"
+"39","AMMVR GROUP, INC","32795131-c8cc-47b3-8e50-ec41fbc21d51","immuno"
+"40","AMMVR GROUP, INC","32b48805-1189-48cc-bfa0-ff45e4a57f13","immuno"
+"41","AMMVR GROUP, INC","32cdf905-31bb-4d42-b392-ac70404ea915","immuno"
+"42","AMMVR GROUP, INC","3581a604-6975-4a3b-8c02-aef79f761017","immuno"
+"43","AMMVR GROUP, INC","38e0eedd-15e4-44ff-b455-b8d090d9acac","immuno"
+"44","AMMVR GROUP, INC","392105be-876c-4a84-b0b0-3c8f007cdd7d","immuno"
+"45","AMMVR GROUP, INC","39235091-d7f8-4d7e-bb86-ba725be69f9f","immuno"
+"46","AMMVR GROUP, INC","39cd5c2b-8087-4711-bf73-e97299c0371e","immuno"
+"47","AMMVR GROUP, INC","3d8c6742-3ac8-416c-86ac-dd497efb50fd","immuno"
+"48","AMMVR GROUP, INC","3e5a5205-2f7c-4109-9d78-7cf88de4c62e","immuno"
+"49","AMMVR GROUP, INC","3eab74ec-ddf6-4aeb-9d34-3bdf777aba48","immuno"
+"50","AMMVR GROUP, INC","3fe3408a-4c0b-4860-bb4d-0dadd09c1e2d","immuno"
+"51","AMMVR GROUP, INC","4049afb8-cf42-4edf-9fa6-9a76eac7f6fe","immuno"
+"52","AMMVR GROUP, INC","46e0fc26-3e29-4bdf-9bef-14e9426b1e2f","immuno"
+"53","AMMVR GROUP, INC","47e536ea-4d2c-4907-901c-8cdff444e984","immuno"
+"54","AMMVR GROUP, INC","485f1e2a-1d00-48ad-8f50-825612ecc661","immuno"
+"55","AMMVR GROUP, INC","4a3b9ba8-2a3b-42a1-aaa9-82a3d5d66fc5","immuno"
+"56","AMMVR GROUP, INC","4a955a45-fd42-4e7a-8aaa-b8ca93a15411","immuno"
+"57","AMMVR GROUP, INC","4d325b3a-92e9-4d3f-af44-92232106e450","immuno"
+"58","AMMVR GROUP, INC","4d567212-df43-41f7-af9d-dc43615c9c39","immuno"
+"59","AMMVR GROUP, INC","4d6f1048-1614-44b4-8280-9118700f127e","immuno"
+"60","AMMVR GROUP, INC","50c3c33d-91b6-42e5-93a4-931a7371d3f9","immuno"
+"61","AMMVR GROUP, INC","53b845c4-458a-4f18-a879-18e212904964","immuno"
+"62","AMMVR GROUP, INC","56c923b9-c63c-4515-a4ab-d433e8b82095","immuno"
+"63","AMMVR GROUP, INC","58622ef2-f031-456f-877d-2b249ed54e60","immuno"
+"64","AMMVR GROUP, INC","59b65fd8-0bf9-4ef7-be30-ae2e793ea4cc","immuno"
+"65","AMMVR GROUP, INC","5edef487-1766-420e-abe6-b39f11a11ac5","immuno"
+"66","AMMVR GROUP, INC","63b95282-e4c5-43b5-aa2f-401429231f4f","immuno"
+"67","AMMVR GROUP, INC","65644719-a312-4234-a40c-55e56f663075","immuno"
+"68","AMMVR GROUP, INC","65d690a1-f857-488f-91e0-c2193c22a9cf","immuno"
+"69","AMMVR GROUP, INC","6805ea79-f6d0-4d04-838d-84cb3b827460","immuno"
+"70","AMMVR GROUP, INC","68b3ca55-8e48-470f-a05c-5c9a0dc767e0","immuno"
+"71","AMMVR GROUP, INC","69116a74-a14d-4b17-b10a-f00e9e6bbb3d","immuno"
+"72","AMMVR GROUP, INC","6bc62f45-7ff1-4035-8a7b-51eb63fa35ee","immuno"
+"73","AMMVR GROUP, INC","6c26e722-1de7-4a6e-a657-31bd681156f8","immuno"
+"74","AMMVR GROUP, INC","6d5a00f0-c46e-4f61-ab0e-cf69f85e6781","immuno"
+"75","AMMVR GROUP, INC","6e6420ae-30de-45ee-929d-92cc822f5f36","immuno"
+"76","AMMVR GROUP, INC","6f9ca9e8-bd43-4eb9-a35a-b6f9419e640d","immuno"
+"77","AMMVR GROUP, INC","6fedd88b-305f-4969-a718-adf3f3f2705a","immuno"
+"78","AMMVR GROUP, INC","700d1351-4b41-4d31-957b-23a664a46e6e","immuno"
+"79","AMMVR GROUP, INC","7125351c-562c-47e4-bb97-f3802cb69a00","immuno"
+"80","AMMVR GROUP, INC","71e9f53f-44b2-478d-933d-5ace13b2fe29","immuno"
+"81","AMMVR GROUP, INC","72485690-50e7-43f2-850c-e7d8ef68dfdf","immuno"
+"82","AMMVR GROUP, INC","74bcb865-c2a9-49a9-9644-a9c078122707","immuno"
+"83","AMMVR GROUP, INC","75be5c1d-2ba4-438b-b5c3-e499d4c9ea4e","immuno"
+"84","AMMVR GROUP, INC","75ec06f5-d37d-4431-b6dd-1a30671b9774","immuno"
+"85","AMMVR GROUP, INC","797c0009-6f0b-43cb-b087-e7c4b507d3d0","immuno"
+"86","AMMVR GROUP, INC","7c2b73d4-7acc-4ce5-866a-66a351ce95a1","immuno"
+"87","AMMVR GROUP, INC","7d36994f-eb25-47e8-8031-a60d4c9f688c","immuno"
+"88","AMMVR GROUP, INC","7e3069d1-aef3-40a5-a60a-817fdac43db8","immuno"
+"89","AMMVR GROUP, INC","7f1eee94-7805-4b0e-891a-141fddae8788","immuno"
+"90","AMMVR GROUP, INC","81ae239a-d6d1-4b1a-aec7-61b027a11f48","immuno"
+"91","AMMVR GROUP, INC","824f464c-da8c-4444-8e23-a8cc19c2592a","immuno"
+"92","AMMVR GROUP, INC","828c4de7-7bec-46aa-aee4-193c7f095334","immuno"
+"93","AMMVR GROUP, INC","83e924cc-57dd-4af6-9f39-dfe7b127a8a2","immuno"
+"94","AMMVR GROUP, INC","862fdc5a-63cc-45f1-91b6-9a0c71578653","immuno"
+"95","AMMVR GROUP, INC","885bab26-b7ac-4256-92c2-d446c2ac8cb9","immuno"
+"96","AMMVR GROUP, INC","8860235e-b24d-465a-8773-96b18ac523f9","immuno"
+"97","AMMVR GROUP, INC","88dc5ab2-1b4b-45a7-9a56-42063a941434","immuno"
+"98","AMMVR GROUP, INC","8df28254-3f48-42f3-a05e-872c716b93cb","immuno"
+"99","AMMVR GROUP, INC","8e736572-0b24-43cf-a23d-a7211069f399","immuno"
+"100","AMMVR GROUP, INC","8eca42df-409b-4457-856f-fc16c69d65f7","immuno"
+"101","AMMVR GROUP, INC","901702f4-6e6c-4ed5-9b25-6eb8a251d7d3","immuno"
+"102","AMMVR GROUP, INC","922895cf-811c-4b74-a6ae-0104cca1650c","immuno"
+"103","AMMVR GROUP, INC","9254abef-d513-4599-a353-7dabbca80862","immuno"
+"104","AMMVR GROUP, INC","928f025a-a14d-4b3b-84f9-005b2cc05310","immuno"
+"105","AMMVR GROUP, INC","932332b2-2d7f-4f33-be49-4f6829263e88","immuno"
+"106","AMMVR GROUP, INC","94331085-ec44-4a44-9a22-967690ebcb92","immuno"
+"107","AMMVR GROUP, INC","943d085f-2410-4f3d-b7ba-90be689e9ae7","immuno"
+"108","AMMVR GROUP, INC","9476cf95-541e-422f-ae78-4bc00f921d40","immuno"
+"109","AMMVR GROUP, INC","980d072d-707d-46e4-bd4e-b519c45dfdbe","immuno"
+"110","AMMVR GROUP, INC","9a6c454e-7adc-4e40-87f0-44a8db8ba2f8","immuno"
+"111","AMMVR GROUP, INC","9bc5067f-2d81-493e-9ba0-9d1b42ad2e75","immuno"
+"112","AMMVR GROUP, INC","9c7a399f-eebd-4f37-ad95-8c6f384cc611","immuno"
+"113","AMMVR GROUP, INC","9e0c4cf5-d309-4ca5-9b24-201228003469","immuno"
+"114","AMMVR GROUP, INC","a32423a7-45ad-4724-a15b-59176bc2d1e1","immuno"
+"115","AMMVR GROUP, INC","a4d20102-1574-407b-9566-a787f3c0a3e8","immuno"
+"116","AMMVR GROUP, INC","a73a7967-b4e1-4986-81dd-922eaa5f7880","immuno"
+"117","AMMVR GROUP, INC","a893c6d0-7bd0-49e2-b290-0f681de803c8","immuno"
+"118","AMMVR GROUP, INC","a89d3ac1-f565-4764-be86-8a2db9530ba9","immuno"
+"119","AMMVR GROUP, INC","ac2a3fa4-42ba-44cd-8105-7c0cf445bafb","immuno"
+"120","AMMVR GROUP, INC","afc142be-d1ec-4241-9c7e-7b5f56c5d0d2","immuno"
+"121","AMMVR GROUP, INC","b1daec0a-7c7c-4bcd-95c1-c73d92071afd","immuno"
+"122","AMMVR GROUP, INC","b272bf28-bd35-4a1c-a7f4-7c1b1c70e4cd","immuno"
+"123","AMMVR GROUP, INC","b3f1be39-8177-4450-a5a0-f8cff87b31d0","immuno"
+"124","AMMVR GROUP, INC","b60f8772-82c8-40df-9654-386c1a36d9f4","immuno"
+"125","AMMVR GROUP, INC","b80ad48f-6704-4106-8d2a-6a3f3841b0f8","immuno"
+"126","AMMVR GROUP, INC","bb25a7be-56e2-438c-8aea-c07544119a4e","immuno"
+"127","AMMVR GROUP, INC","bd5009ed-1cbd-4fdc-aece-6ecab02c8b22","immuno"
+"128","AMMVR GROUP, INC","bf16d1aa-aa7b-44d2-b4d9-e3c88d7bb0e7","immuno"
+"129","AMMVR GROUP, INC","bf6278a0-c584-485b-891d-f6100eb64709","immuno"
+"130","AMMVR GROUP, INC","c0b045b4-cf63-4a5b-8998-df620f2bddef","immuno"
+"131","AMMVR GROUP, INC","c119ae8e-79d5-4cca-a1e6-3ec305997f07","immuno"
+"132","AMMVR GROUP, INC","c2221b57-9f55-431c-b437-7cb6f3b9f163","immuno"
+"133","AMMVR GROUP, INC","c4b79d2b-1e29-4ef9-bbb3-e56274cff41c","immuno"
+"134","AMMVR GROUP, INC","c5433207-6806-4c5b-8ad5-e8df55277da8","immuno"
+"135","AMMVR GROUP, INC","ca9dc7db-d53f-4403-9461-6a2d90374558","immuno"
+"136","AMMVR GROUP, INC","ca9e40f1-66bd-4fe5-b92e-91815b0affc9","immuno"
+"137","AMMVR GROUP, INC","caffaea7-f6f7-46ad-96b4-ddf777528147","immuno"
+"138","AMMVR GROUP, INC","cc07a582-16aa-4501-a97b-446cb3742c4b","immuno"
+"139","AMMVR GROUP, INC","ccf5b169-099c-4210-87af-0cc2fe54d16b","immuno"
+"140","AMMVR GROUP, INC","ce80a29d-daeb-401c-96cc-9c813c304d7e","immuno"
+"141","AMMVR GROUP, INC","cf1e895d-115b-4b34-a6ff-547a89968141","immuno"
+"142","AMMVR GROUP, INC","cfb04d3d-0566-4333-b48f-f0452ff2d4b3","immuno"
+"143","AMMVR GROUP, INC","d0462845-2199-47e6-ad6e-68b3db33a983","immuno"
+"144","AMMVR GROUP, INC","d1a03dee-a1e2-4e4c-92eb-10a5d8dc4f8d","immuno"
+"145","AMMVR GROUP, INC","d1c61559-1e8f-4d73-a12d-1cf4d9971020","immuno"
+"146","AMMVR GROUP, INC","d4bb9c4f-4c47-478a-8a5e-b280ce5d5dcf","immuno"
+"147","AMMVR GROUP, INC","d5075e85-d046-4e09-9093-a61938a5e124","immuno"
+"148","AMMVR GROUP, INC","d5ab86ce-8219-4ed0-a280-4a9096dd52cc","immuno"
+"149","AMMVR GROUP, INC","d9ef9f10-f520-4a45-b506-07f783221da2","immuno"
+"150","AMMVR GROUP, INC","dcf865c8-fee3-4831-a4f1-c0f42a51675f","immuno"
+"151","AMMVR GROUP, INC","ddb20f79-9314-4694-b61b-808b5a60971b","immuno"
+"152","AMMVR GROUP, INC","e22d98e3-eb75-4095-874e-52d30dc94a6e","immuno"
+"153","AMMVR GROUP, INC","e5df7bdf-9878-4c09-a0a6-b829dfe72ed3","immuno"
+"154","AMMVR GROUP, INC","e649f199-caa3-40cf-bcad-c59f2e74364a","immuno"
+"155","AMMVR GROUP, INC","e8e36229-5c79-4365-81b2-ee3321f6b67a","immuno"
+"156","AMMVR GROUP, INC","ea1fe2dc-0aa9-444b-a523-fed89f4a8b9e","immuno"
+"157","AMMVR GROUP, INC","eaaef132-e10e-41d7-9cb4-24b4a1f34325","immuno"
+"158","AMMVR GROUP, INC","ebfdcf32-1054-473e-ac34-c729f1d0d80c","immuno"
+"159","AMMVR GROUP, INC","ec0600a9-e940-4265-8701-3f80d0e1bb66","immuno"
+"160","AMMVR GROUP, INC","ec55d5a4-4165-4ec4-b842-dac55a3f44f4","immuno"
+"161","AMMVR GROUP, INC","ee9867e7-b83b-47f2-91a6-926cebd56484","immuno"
+"162","AMMVR GROUP, INC","f01b324a-1d02-4f56-9056-29460f5f2e53","immuno"
+"163","AMMVR GROUP, INC","f02bcc9d-10e4-462d-b974-b60ddfc966a3","immuno"
+"164","AMMVR GROUP, INC","f0740b6b-97e5-42f4-8344-762335062905","immuno"
+"165","AMMVR GROUP, INC","f0fe4339-7fb5-49fc-9856-8ac01b3ed1ca","immuno"
+"166","AMMVR GROUP, INC","f1274022-2ad6-4c13-a6d0-3524a0004ecd","immuno"
+"167","AMMVR GROUP, INC","f1b76fc0-4232-4378-a1ff-bfe37c20c970","immuno"
+"168","AMMVR GROUP, INC","f2f496e5-5025-4da8-b18e-112131edea80","immuno"
+"169","AMMVR GROUP, INC","f3c041de-3752-4f75-a5ec-c5179f841de0","immuno"
+"170","AMMVR GROUP, INC","f3f86252-ad0f-4bad-8dae-88dd7a7af7c0","immuno"
+"171","AMMVR GROUP, INC","f4e44322-b84f-40ce-8437-08ff57093f23","immuno"
+"172","AMMVR GROUP, INC","f5a3a4bd-d9f2-4ef4-b44b-b2f3c0856f41","immuno"
+"173","AMMVR GROUP, INC","f5f09259-cde2-4e94-8026-a57420b563ed","immuno"
+"174","AMMVR GROUP, INC","f73a683b-2a06-4791-a8f3-38ec0f96dbb3","immuno"
+"175","AMMVR GROUP, INC","f76e9938-5f7c-4dbe-8ba4-61ba723a1e8d","immuno"
+"176","AMMVR GROUP, INC","fa79b51b-3a0e-4db1-a5df-7f7ed25ddadf","immuno"
+"177","AMMVR GROUP, INC","fd65809d-cc23-4252-baec-2d630a291053","immuno"
+"178","AMMVR GROUP, INC","ffa3cf2a-c568-401d-8d6e-d3968dffbfe7","immuno"
+"179","AMMVR GROUP, INC.","11f6ad0a-69df-468b-95f0-560412a52cb1","immuno"
+"180","AMMVR GROUP, INC.","275d52d9-2d36-400b-94c2-8a044bf0e5ec","immuno"
+"181","AMMVR GROUP, INC.","2cd20672-f5f7-4984-b901-6355bf5efb1f","immuno"
+"182","AMMVR GROUP, INC.","374135db-8d0f-45a1-9a74-dfbe59436e83","immuno"
+"183","AMMVR GROUP, INC.","44fc08f1-cc8d-424d-8bec-0241f351fc2c","immuno"
+"184","AMMVR GROUP, INC.","4f9db2e3-ca84-4167-878e-3d1fbf9550be","immuno"
+"185","AMMVR GROUP, INC.","53c07bed-bb79-43fc-be0b-ae7d81e1346e","immuno"
+"186","AMMVR GROUP, INC.","572e0361-dc62-43b8-adf6-aa1a4da735e9","immuno"
+"187","AMMVR GROUP, INC.","9914dc54-4ce1-45d6-b37e-149a01c3732a","immuno"
+"188","AMMVR GROUP, INC.","a87b831a-8d62-4657-a734-043a8756c884","immuno"
+"189","AMMVR GROUP, INC.","b990bf69-6443-4057-9cb2-1b4288600d7f","immuno"
+"190","AMMVR GROUP, INC.","fd1b47b4-96e8-4077-a813-08aec013914c","immuno"
+"191","AMMVR GROUP, INC.","fe645926-ab9e-48b9-a6f7-23f2a36ced00","immuno"
+"192","Quest Caparra Reference","4177212c-f111-467f-bcbf-2aaeff00f1c7","quest"
+"193","Quest Diagnostics - Caparra","65f49006-5a28-42a0-885d-0cedcc43451a","quest"
+"194","Quest Diagnostics - Maramar Plaza","665f5c46-5748-460f-b1a2-8063f23d091d","quest"
+"195","Quest Diagnostics Barceloneta","31f5458a-9fd2-4929-afa6-87b62993fe86","quest"
+"196","Quest Diagnostics Caguas 1","8f46d56d-68d4-469b-80cf-461cb94aa18d","quest"
+"197","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","0c128293-5747-4114-8e7b-6d4b2dc4985b","quest"
+"198","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","2375bb36-d125-4d2a-8ee6-07d759d8562e","quest"
+"199","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","23792021-5476-438d-a9fc-ca3dc16602f8","quest"
+"200","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","27b071a6-cb61-4995-8891-03ce9ff3df02","quest"
+"201","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","2bce6b79-91ac-443d-b228-2633564d6a99","quest"
+"202","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","2fd18973-4931-4f2f-b281-012e8d4940cc","quest"
+"203","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","3131c700-3e1f-4af6-8c49-fd08a6ce2f82","quest"
+"204","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","332c2d1c-78c9-4fcb-859e-513920c3b3bd","quest"
+"205","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","36286924-28cf-4ed2-9eaf-9f93cee25025","quest"
+"206","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","37a77abd-dc39-4235-a164-282cca02382e","quest"
+"207","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","4909288c-d248-4d39-a388-5004115e9f48","quest"
+"208","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","4971edfc-9dda-48b6-9ffc-2bdc6b0ee5a5","quest"
+"209","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","4e369ecf-5361-4aff-b49f-9fe3d69bee14","quest"
+"210","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","56134051-922d-42c2-93a3-efd919c20f36","quest"
+"211","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","5dda20be-d1f2-407e-b796-7e51b1792338","quest"
+"212","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","61eb9eab-ec96-4762-ac36-023e3de5357d","quest"
+"213","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","6670469a-4bdf-4b99-96c9-0caa4d19b7cb","quest"
+"214","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","6e0f8202-e5ec-4c97-b245-58be32629511","quest"
+"215","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","773cd4bf-d295-4863-a1aa-abc6ecada6ad","quest"
+"216","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","78dbf5c1-cc32-4013-8ac4-f86121cfa453","quest"
+"217","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","7b4a4d59-614b-4785-8e8a-b7dc3be31956","quest"
+"218","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","80390542-1302-47be-a8ad-c09ce249df53","quest"
+"219","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","833a498c-425b-461c-a051-d91f77ba2242","quest"
+"220","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","900513d7-798c-4944-90ec-ae00f7e0a18f","quest"
+"221","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","a76c7b2f-e950-485f-9244-4980842039a0","quest"
+"222","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","aa514c77-8fa4-4e1a-9fb5-15a36ea3cbf1","quest"
+"223","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","b32ccece-5968-412a-96d1-44433bbb2371","quest"
+"224","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","bec3fcb7-f749-40b9-8edb-aaed5a5f4cf5","quest"
+"225","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","bf2adaf8-58c2-408d-85f5-feed3d32d31f","quest"
+"226","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","c25c1493-28e4-4ada-bcba-226d6f5075e4","quest"
+"227","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","d64f2553-26e7-43c4-8758-b8b8e3d68409","quest"
+"228","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","da3ee612-e8da-4711-9713-1c6da853cadc","quest"
+"229","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","dc25de67-5252-4875-9178-cfdb593824d8","quest"
+"230","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","e1500f19-4b00-4425-b8ab-d7bfda5c649e","quest"
+"231","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","e3d5b041-24a9-48c4-911c-0f01fd746e51","quest"
+"232","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","e672af01-063e-4383-8172-334d8af91520","quest"
+"233","QUEST DIAGNOSTICS CLINICAL LABORATORIES INC","ee259eb3-74eb-4c97-80a6-1cc92959051c","quest"
+"234","Quest Diagnostics Clinical Laboratory","ab029e8b-be58-4e18-942b-62bc48c5f1c6","quest"
+"235","Quest Diagnostics Laboratorio De Analisis Clinico","9e93fb3b-a1e2-4bd7-9b32-5582d901c2ed","quest"
+"236","QUEST DIAGNOSTICS LLC IL","aaffdf89-e749-403b-b8c2-4ccee6cb7d48","quest"
+"237","QUEST DIAGNOSTICS NICHOLS INSTITUTE, INC.","5f468a6a-2d88-4a2d-84c3-61a286c79f2d","quest"
+"238","QUEST DIAGNOSTICS OF PUERTO RICO","ad3d183a-1c93-4298-b276-cdc8852cae05","quest"
+"239","QUEST DIAGNOSTICS OF PUERTO RICO INC","7329d962-224b-4f48-8376-e857dcfa82bf","quest"
+"240","Quest Diagnostics Paoli","009025c6-f20d-464c-8ca2-6d8c4ed888f2","quest"
+"241","Quest Diagnostics Santa Cruz","3e77ec58-25d5-4b19-947f-fdbafeb08ff6","quest"
+"242","Quest Diagnostics Santa Rosa","5b609c12-4b90-444e-b911-95b640976cb6","quest"
+"243","Quest Diagnostics Vega Alta","2db6ea75-4b51-4a68-9295-5a3c6d535d0e","quest"
+"244","Laboratorio Clinico Toledo","50115a93-580f-48c5-8729-37b8eefd17be","toledo"
+"245","Laboratorio Clinico Toledo","9b166f96-7d03-44ca-963a-6da489ffccad","toledo"
+"246","Laboratorio Clinico Toledo","c821fb79-c4e8-454d-918b-3a2e3787cfa3","toledo"
+"247","Laboratorio Clinico Toledo","c90914d9-6fc0-4d82-a475-ac91a513633e","toledo"
+"248","LABORATORIO CLINICO TOLEDO","047b9571-f837-40f2-a544-3273b635d74a","toledo"
+"249","LABORATORIO CLINICO TOLEDO","2849a463-ab5d-4f8d-9353-b65889d792a2","toledo"
+"250","LABORATORIO CLINICO TOLEDO","2e99fe33-0952-4ee7-9820-47552c46e14c","toledo"
+"251","BORINQUEN DIAGNOSTICS INC","95563a3b-e893-4224-96c6-7cab26a28e22","borinquen"
+"252","Laboratorio Clínico Borinquen","6530f15f-bfef-48c6-99ef-4abc1aeef738","borinquen"
+"253","Laboratorio Clínico Borinquen - Alejandrino","2ca4bf89-b323-4e62-8bac-7ffad8099736","borinquen"
+"254","Laboratorio Clínico Borinquen - Avenida Muñoz Marín","652c63d9-4cbe-4a67-ac4e-8f96e0d75436","borinquen"
+"255","LABORATORIO CLINICO BORINQUEN - AVENIDA PAVIA FERNANDEZ","50b4d852-561f-4ca9-8252-1d9155e0739f","borinquen"
+"256","Laboratorio Clínico Borinquen - Avenida Pavía Fernández","ec0384bd-7d63-431a-9c3f-b07d7ea17ec1","borinquen"
+"257","Laboratorio Clínico Borinquen - Bairoa","559556ba-7c4d-474b-91d2-e18324a10ad1","borinquen"
+"258","Laboratorio Clínico Borinquen - Borinquen Towers","822ca00a-0fc4-4d3c-b31d-6a83ec595490","borinquen"
+"259","Laboratorio Clínico Borinquen - Caguas Ralph","a3c9cf80-50c9-4b35-998b-a282896790e7","borinquen"
+"260","Laboratorio Clínico Borinquen - Centro Europa","74a6742f-4292-4cf1-bfa0-68ce424c58ca","borinquen"
+"261","Laboratorio Clínico Borinquen - Cidra Pueblo","8607eecd-ee8a-489c-97a1-a8de9961a2c9","borinquen"
+"262","Laboratorio Clínico Borinquen - Clínica Las Américas","02dcfc5d-32c3-4a03-adae-fd3c382d126e","borinquen"
+"263","Laboratorio Clínico Borinquen - Dorado","63919372-caa4-4c53-8324-9af5372dbeb7","borinquen"
+"264","Laboratorio Clínico Borinquen - Drive-In","d01f4303-8e7a-43b8-9c69-f8892e010f6b","borinquen"
+"265","Laboratorio Clínico Borinquen - Escorial","6ece84f0-a35c-4b48-b3e1-3158aeb1891e","borinquen"
+"266","Laboratorio Clínico Borinquen - Europa","0f1547c4-e6db-45cb-bf7c-1a1ecb7eae80","borinquen"
+"267","Laboratorio Clínico Borinquen - Forest Hills","5d9f9d79-88df-42da-94a9-95b5f21347fb","borinquen"
+"268","LABORATORIO CLINICO BORINQUEN - GARDEN HILLS PLAZA","b0764283-b06b-402b-805e-4a897f808509","borinquen"
+"269","Laboratorio Clínico Borinquen - Garden Hills Plaza","c0db0a13-91d8-4be7-99d2-ab80756d0f27","borinquen"
+"270","Laboratorio Clínico Borinquen - Gurabo Plaza","50e7c80c-0cb1-470c-969f-df4abfb35e57","borinquen"
+"271","Laboratorio Clínico Borinquen - Hato Rey","b5ff3cbc-afba-4d1a-9451-562f08c786f8","borinquen"
+"272","Laboratorio Clínico Borinquen - Hermanas Dávila","3abed425-9f21-4188-9bfa-e95b58b7a379","borinquen"
+"273","Laboratorio Clínico Borinquen - Humacao","17fb0e30-c79d-4747-87b0-57b165622251","borinquen"
+"274","Laboratorio Clínico Borinquen - Iturregui Plaza","1968f2b6-f34d-4efe-8559-850051656755","borinquen"
+"275","Laboratorio Clínico Borinquen - Las Lomas","b89a3d64-2d9c-4e2c-8a27-e6794bc7a95f","borinquen"
+"276","Laboratorio Clínico Borinquen - Los Prados","33d0943b-5be8-416e-907e-43e200f3f1a6","borinquen"
+"277","Laboratorio Clínico Borinquen - Ocean Park","f7952dfc-16b1-4d19-bfff-96e37f8e1d91","borinquen"
+"278","Laboratorio Clínico Borinquen - Plaza Esmeralda","c4a8fce0-646b-42c1-aa13-cae6548ea4e3","borinquen"
+"279","Laboratorio Clínico Borinquen - Río Hondo","81549a21-5eb7-44c0-b0cf-d0ceac11cb50","borinquen"
+"280","Laboratorio Clínico Borinquen - San Francisco","0e7b6505-bb5f-4a0d-bbbe-668af45367e5","borinquen"
+"281","Laboratorio Clínico Borinquen - Winston Churchill","b6daf069-7f2a-4ab3-bfae-4666658c91f0","borinquen"
+"282","Laboratorio Clínico Borinquen Consolidated Medical Plaza","3272f471-0666-49e7-aab7-1225e6110ff2","borinquen"
+"283","LABORATORIO CLINICO BORINQUEN HERMANAS DAVILA","21496246-b22c-4f13-955c-18a0f07f569a","borinquen"
+"284","Laboratorio Clínico Borinquen Quadrangle Medical Building","62f5b2f5-2dd9-4350-863f-18042bdf11ba","borinquen"
+"285","LABORATORIO CLINICO BORINQUEN-GURABO PLAZA","a65e3987-36f8-40ee-be10-9eaa37f0c706","borinquen"
+"286","LABORATORIO CLINICO BORINQUEN-SAN FRANCISCO","523faa2c-f8ed-4a75-a9a2-a1430b69eaad","borinquen"
+"287","HRP Labs-Laboratorio Clinico","dbc8252e-9035-4cec-a78a-3d6d20aede61","hrp"
+"288","Hato Rey Pathology","959b9ce8-bb72-494c-9d18-52e32efa41a6","hrp"
+"289","Laboratorio Clínico Borinquen - Hato Rey","b5ff3cbc-afba-4d1a-9451-562f08c786f8","hrp"
+"290","Laboratorio Clinico y Molecular Southern Pathology","573ae399-27e7-44e9-a3b9-c14bcf05ec7c","southern"
+"291","Southern Pathology Services","0827dd8a-91af-4ad5-ad10-0e9122f5b260","southern"
+"292","Inno Diagnostics","9f49b14c-58e9-40e9-85e0-f68654faa0d9","inno"
+"293","LAB CLINICO Y REFERENCIA ESCUELA MEDICINA PONCE","c4bcb1b1-b545-45e0-834e-4a89207fffc0","inno"
+"294","Laboratorio Clínico y de Referencia Escuela Medicina de Ponce","c56f0276-03fd-4d8f-b277-2498b44db63d","inno"
+"295","Laboratorio Clinico Noy & Reference","63572b60-5e24-4940-ab25-9b92fd45ad47","noy"
+"296","LABORATORIO DE PATOLOGIA DR NOY","1d23de5a-bcde-4166-a882-96c7f887ce31","noy"
+"297","LABORATORIO DE PATOLOGIA DR NOY","28f10722-cc9a-4d04-bf9b-8320b47f5ef2","noy"
+"298","LABORATORIO DE PATOLOGIA DR NOY","39ece4e8-bd57-447b-9392-5fce9593bcb3","noy"
+"299","LABORATORIO DE PATOLOGIA DR NOY","3f8dff87-e912-43d8-968a-94b8f0759e35","noy"
+"300","LABORATORIO DE PATOLOGIA DR NOY","49e6fc42-906e-49eb-b0e1-b79beb34a7f6","noy"
+"301","LABORATORIO DE PATOLOGIA DR NOY","5c07872d-f8e6-46ea-9879-048bdf8d7892","noy"
+"302","LABORATORIO DE PATOLOGIA DR NOY","5c8ea3b1-83ba-435e-a499-34297ad48cb1","noy"
+"303","LABORATORIO DE PATOLOGIA DR NOY","725518b0-b4d9-4b4d-a2bc-283fae2282fe","noy"
+"304","LABORATORIO DE PATOLOGIA DR NOY","73e6e085-aab5-4195-b497-9538f2f188f2","noy"
+"305","LABORATORIO DE PATOLOGIA DR NOY","763e9be8-9944-4e93-99f0-77a6d4108144","noy"
+"306","LABORATORIO DE PATOLOGIA DR NOY","78d6de02-7ddc-4c50-ba71-9d1d52c64547","noy"
+"307","LABORATORIO DE PATOLOGIA DR NOY","7d7b55cc-d579-4501-ae62-a27238eacff0","noy"
+"308","LABORATORIO DE PATOLOGIA DR NOY","8e043534-027d-46c9-ba9c-1c212dd97d36","noy"
+"309","LABORATORIO DE PATOLOGIA DR NOY","ab52f657-48ea-43e1-ad95-bcaa35d41b3e","noy"
+"310","LABORATORIO DE PATOLOGIA DR NOY","c717db61-6e81-4614-a269-a4668a5fa864","noy"
+"311","LABORATORIO DE PATOLOGIA DR NOY","d839d9bb-2ba9-4535-aaf0-b716bcf3eed9","noy"
+"312","LABORATORIO DE PATOLOGIA DR NOY","f5c88036-cd9b-468f-877d-542974795159","noy"
+"313","Puerto Rico Pathology Laboratory","1d8da442-4ebc-4d2d-82dc-a48c1143722b","puerto rico pathology"
+"314","LABORATORIO CLINICO MARTIN II, INC.","50d08829-e716-4cf4-8fdf-7711ff7fcbb2","martin"
+"315","LABORATORIO CLINICO MARTIN INC","c5cf8106-12ee-45d8-b33d-374ca9dde812","martin"
+"316","Biological and Chemical Emergency Laboratory (BCEL)","c958df32-9fa7-4a4c-ba3b-08b47cae80fc","bcel"
+"317","COREPLUS SERVICIOS CLINICOS Y PATOLOGICOS LLC","d0700b4f-f41d-47ab-8bab-5f51009c34be","coreplus"
+"318","COREPLUS SERVICIOS CLINICOS Y PATOLOGICOS LLC","dbead5cd-f189-45d6-8bf1-360b06d4f3f1","coreplus"
+"319","Laboratorio CorePlus Servicios Clínicos y Patológicos","7b8ef2c9-5dc7-4e9f-adce-2df02c6602cf","coreplus"
+"320","PPMI-RCM","ad64d5fa-1e14-48f2-94c7-80bb08f82eba","rcm"
+"321","RECINTO DE CIENCIAS MEDICAS","ed95bae9-5f10-48f1-bd69-e58ded21ef29","rcm"
+"322","RECINTO DE CIENCIAS MEDICAS-LABORATORIO PATOLOGIA","9bcc0c2d-4de3-41f7-b48d-dd149ad75b69","rcm"
+"323","Departamento de Salud Oficial"," 8ce3f0ab-639a-42c5-8450-1dc72982d003","PRHD"
+"324","Puerto Rico Department of Health - Epidemiology Department","941db63c-8e4b-47df-bc51-f0cee32efbba","PRHD"
+"325","Laboratorio Clinico M Landron","143a1a86-29ef-42f6-ae5e-e20f39276f02","Landron"
+"326","CMT Group","eb9a476d-adec-45c3-b75c-555d6faa2e87","CMT"
+"327","Clinical Research Sequencing Platform","07dc45c0-40de-48bb-87a8-52dcac79ed4d","CRSP"
+"328","Laboratorio Clínico Villa Ana","eeee154a-ebd6-4584-ac96-5dba0d4ef84c","LCVA"
+"329","AEGIS SCIENCES CORPORATION","b497a3f9-1d50-4fe0-8362-a31c84be0878","Aegis"
