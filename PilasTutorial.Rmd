@@ -1,0 +1,150 @@
+---
+title: "PILAS Tutorial"
+author: "Sofía Meléndez Cartagena"
+date: "7/20/2021"
+output:
+  pdf_document: default
+---
+
+## Introdución
+
+
+## Paquetes necesarios
+
+  * PilasPack: Paquete generado por el equipo de tabajo de PILAS se puede bajar aquí:
+    * devtools::install_github("ComplejoC/PILASPack/PilasPack")
+  * Tidyverse
+    * Necesario para graficar y crear un proceso de conductos en R
+  * Lubridate
+    * Utilizado para manipular fechas
+  * httr
+    * Utilizado para interactuar con el API de Bioportal
+  * jsonlite
+    * Utilizado para transformar los tokens del API
+  
+## Adquisicion de datos 
+
+  Estamos en proceso de arreglar la función de adquisicion de datos en el paquete, 
+  asta nuevo aviso se utiliza este codico:
+  
+```{r, eval=FALSE}
+## Download Prep
+
+start_of_month=list("01/01/2021", "02/01/2021","03/01/2021", "04/01/2021", "05/01/2021")
+names(start_of_month)=c("January2021","Febuary2021", "March2021", "April2021","May2021")
+
+
+end_of_month=list("01/31/2021", "02/28/2021","03/31/2021", "04/30/2021", "05/31/2021")
+names(end_of_month)=c("January2021","Febuary2021", "March2021", "April2021", "May2021")
+
+
+paste("/?","startDate=",start_of_month[4],"&","endDate=",end_of_month[4],sep="")
+## Download Data
+
+l=length(start_of_month)
+
+base_url="https://bioportal.salud.gov.pr/api/administration/reports/unique-tests"
+Datos_all_list=list()
+
+
+
+for (i in 1:l){
+  
+  print(Sys.time())
+  
+  #produce the url
+  url_req=paste("/?","createdAtStartDate=",start_of_month[i],"&",
+                "createdAtEndDate=",end_of_month[i],sep="")
+  url=paste(base_url,url_req,sep="")
+  
+  
+  
+  data <- list(
+    email="",
+    password = "",
+    reCaptchaResponseToken="N/A")
+  
+  res = POST("https://bioportal.salud.gov.pr/api/authentication/login/",
+             body= data, encode='json', content_type('application/json'))
+  
+  token = fromJSON(rawToChar(res$content))  
+  
+  datos = GET(url, 
+              content_type('application/json'), 
+              add_headers(authorization = paste('Bearer', token$token),
+                          'Accept-Enconding'="br"))
+  
+  datos = fromJSON(rawToChar(datos$content), flatten = TRUE)
+  
+  ## Copias de base de datos ##
+  Datos<-datos
+  
+  #store the data in a list
+  
+  Datos_all_list[[i]]<-Datos
+  
+  names(Datos_all_list)<-names(start_of_month)[c(1:i)]
+  
+  
+  print(names(start_of_month[i]))
+}
+
+## Concatenate
+Datos_all<-do.call("rbind",Datos_all_list)
+
+```
+  
+  Hagase ajuste de los meses de interes así como sea necesario para su analisis. El espacio para email y password deben ser rellenados con su informacion de bioportal.
+  
+
+## Preprocesamiento
+
+Utilizando las funciones de PilasPack se va transformar las variables de fechas a formato de fecha y ademas se va carlular los rezados, que en nuestra tabla se llamaran:
+
+  * TatReportSample
+    * La diferencia entre la fecha que el resultado es reportado en el laboratorio y la fecha en la que se tomo la muestra
+  * TatUploadReport
+    * La diferencia entre la fecha que el resultado es reportado al bioportal y el resultado reportado en el laboratorio 
+  * TatUploadSample
+    * La diferencia entre la fecha que el resultado es reportado al bioportal y la fecha en la que se tomo la muestra
+    
+**Tat es corto para Turn Around Time.**
+
+
+Ejemplares del preproceso donde Datos_all son los datos tal cual fueron bajados de Bioportal:
+
+```{r, eval=FALSE}
+All_test <- testApiToDates(DataFrame = Datos_all)
+
+head(All_test)
+```
+
+Esta función anterior transforma las columnas de fechas al formato de fecha
+
+```{r, eval=FALSE}
+All_test <- testApiCalculateTurnaround(All_test)
+
+head(All_test)
+```
+
+Esta función anterior calcula los rezagos y añade tres columnas a la tabla con esos valores
+
+```{r, eval=FALSE}
+All_test <- testApiMonthAsColumn(All_test)
+
+head(All_test)
+```
+
+Esta función anterior estrae el mes en el que las diferentes fechas claves ocurrieron y las añade al final de la tabla. Esta ultima funcion es opcional en el proceso.
+
+### Errores comunes y que hacer con ellos
+
+## Analisis comunes
+
+### Volumen
+
+### Rezago
+
+### Campos Vacios
+
+### Relacion laboratorio-laboratorio
