@@ -11,7 +11,10 @@ output:
 
 ## Paquetes necesarios
 
-  * PilasPack: Paquete generado por el equipo de tabajo de PILAS se puede bajar aquí:
+  * devtools
+    * Paquete ultilizado para bajar y crear paquetes fuera de CRAN (el repositorio oficial de R)
+  * PilasPack 
+    * Paquete generado por el equipo de tabajo de PILAS se puede bajar aquí:
     * devtools::install_github("ComplejoC/PILASPack/PilasPack")
   * Tidyverse
     * Necesario para graficar y crear un proceso de conductos en R
@@ -138,6 +141,31 @@ head(All_test)
 Esta función anterior estrae el mes en el que las diferentes fechas claves ocurrieron y las añade al final de la tabla. Esta ultima funcion es opcional en el proceso.
 
 ### Errores comunes y que hacer con ellos
+
+El Bioportal empezo a recibir datos el "2020-03-9", se supone que ya se allá arreglado el error que llevo a que aparecieran pruebas más viejas que esa fecha. Sin embargo siempre es una buena practica coroborar. En una tabla aparte aisla los datos con fecha erronea para enviarsela a la oficina de Bioportal, en la tabla principal elimina los datos erroneos.
+
+```{r, eval=FALSE}
+DataUpBeforeMarch <- All_test %>%
+  filter(createdAtDate < ymd("2020-03-09"))
+```
+
+```{r, eval=FALSE}
+All_test <- All_test %>%
+  filter(createdAtDate > ymd("2020-03-09"))
+```
+
+Tambien no es muy fuera de lo commun que las pruebas sean muestreadas en fechas imposibles, recomiendo eliminar cualquier prueba tomada antes de "2020-02-01".
+
+```{r, eval=FALSE}
+SampledUpBeforeFeb <- All_test %>%
+  filter(sampleCollectedDate < ymd("2020-02-01"))
+```
+
+```{r, eval=FALSE}
+All_test <- All_test %>%
+  filter(sampleCollectedDate > ymd("2020-02-01"))
+```
+
 
 ## Analisis comunes
 
