@@ -154,7 +154,7 @@ All_test <- All_test %>%
   filter(createdAtDate > ymd("2020-03-09"))
 ```
 
-Tambien no es muy fuera de lo commun que las pruebas sean muestreadas en fechas imposibles, recomiendo eliminar cualquier prueba tomada antes de "2020-02-01".
+Tambien no es muy fuera de lo commun que las pruebas sean muestreadas en fechas imposibles, recomiendo eliminar cualquier prueba tomada antes de "2020-02-01". Al igual que la vez anterior, separamos los datos con fechas muy viejas en una tabla aparte y manten el resto de los datos en la tabla original.
 
 ```{r, eval=FALSE}
 SampledUpBeforeFeb <- All_test %>%
@@ -166,13 +166,80 @@ All_test <- All_test %>%
   filter(sampleCollectedDate > ymd("2020-02-01"))
 ```
 
+Otros errores comunes en fechas se tienden a reflejar en los rezagos. Muchas veces encontramos que tenemos rezagos negativos por que la fecha de muestreo es depues de cuando se reporto o se subio a bioportal. Igualmente ocurre que la fecha de reporte es luego de la fecha en que se sube a bioportal. Estos errores tabien los aislamos y los reportamos, pero tienen un protocolo un poco diferente. Primero se aisla todas las pruebas con Tats negativo en una misma tabla y luego se corrobora por duplicados.
+
+```{r, eval=FALSE}
+NegTat <- All_test %>%
+  filter(as.numeric(TatReportSample) < 0)%>%
+  filter(as.numeric(TatUploadReport) < 0)%>%
+  filter(as.numeric(TatUploadSample) < 0)
+
+NegTat <- NegTat[!duplicated(NegTat),]
+
+```
+
+```{r, eval=FALSE}
+All_test <- All_test %>%
+  filter(as.numeric(TatReportSample) > 0)%>%
+  filter(as.numeric(TatUploadReport) > 0)%>%
+  filter(as.numeric(TatUploadSample) > 0)
+```
 
 ## Analisis comunes
 
 ### Volumen
 
+#### Volumen promedio global
+```{r, eval=FALSE}
+All_Tests %>%
+  select(sampleCollectedDate, TatUploadSample)%>%
+  mutate(sampleCollectedDate = month(sampleCollectedDate, label = TRUE)) %>%
+  group_by(sampleCollectedDate)%>%
+  mutate(TatUploadSample = as.numeric(TatUploadSample))%>%
+  summarise(meanTat = mean(TatUploadSample), SDETat = sd(TatUploadSample))%>%
+  ggplot(aes(x = sampleCollectedDate, y = meanTat))+
+  geom_point()+
+  geom_errorbar(aes(ymin=meanTat-SDETat, ymax=meanTat+SDETat))+
+  labs(y = "Rezago Promedio", x = "Mes", 
+       title = "Promedio y Desviacion Estandar en Rezago Entre Muestreo y Subir")+
+  theme_bw()
+```
+
+
+
 ### Rezago
 
 ### Campos Vacios
 
+```{r, eval=FALSE}
+ClinicalProssNa<-All_test%>%
+  dplyr::select(orderedByEntity.name, processedByEntity.name, patient.firstName,patient.lastName, patient.contact.phoneNumber, patient.address.city, patient.birthDate,testType)%>%
+  filter(testType == "Molecular")%>%
+  group_by(orderedByEntity.name, processedByEntity.name, patient.firstName,patient.lastName, patient.contact.phoneNumber, patient.address.city, patient.birthDate)%>%
+  count()%>%
+  ungroup()%>%
+  group_by(orderedByEntity.name,processedByEntity.name)%>%
+  summarise(FreqNaName = sum(is.na(patient.firstName)),FreqNaApellido = sum(is.na(patient.lastName)),FreqNaNumb = sum(is.na(patient.contact.phoneNumber)),FreqNaCity = sum(is.na(patient.address.city)), FreqNaBirth = sum(is.na(patient.birthDate)), N = sum(n))%>%
+  ungroup()%>%
+  group_by(orderedByEntity.name,processedByEntity.name ,FreqNaName, FreqNaApellido, FreqNaNumb, FreqNaCity, FreqNaBirth,N)%>%
+  summarise(RowSum = sum(FreqNaName, FreqNaApellido, FreqNaNumb, FreqNaCity, FreqNaBirth))%>%
+  filter(RowSum>0) %>%
+  ungroup()%>%
+  group_by(orderedByEntity.name,processedByEntity.name ,FreqNaName, FreqNaApellido, FreqNaNumb, FreqNaCity, FreqNaBirth,RowSum,N)%>%
+  summarise(Per = (RowSum/N)*100)%>%
+  arrange(desc(Per))
+
+ClinicalProssNa
+```
+
+```{r, eval=FALSE}
+ClinicalProssNa %>%
+  pivot_longer(cols = c(FreqNaCity, FreqNaNumb, n,TotalNA))%>%
+  ggplot(aes(x = name, y = value, fill = orderResult.result))+
+  geom_col()+
+  labs(title = "Entradas Vacias", y = "Frecuencia", x = "")+
+  theme_bw()+
+  facet_wrap(~Tags)
+  
+```
 ### Relacion laboratorio-laboratorio
