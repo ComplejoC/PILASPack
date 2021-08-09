@@ -24,8 +24,12 @@ output:
     * Utilizado para interactuar con el API de Bioportal
   * jsonlite
     * Utilizado para transformar los tokens del API
+  * egg
+    * Facilita crear figuras de  multiples paneles
+  * scales
+    * Permite utilizar doble ejes de Y
   
-## Adquisicion de datos 
+## Adquisición de datos 
 
   Estamos en proceso de arreglar la función de adquisicion de datos en el paquete, 
   asta nuevo aviso se utiliza este codico:
@@ -190,6 +194,7 @@ All_test <- All_test %>%
 ### Volumen
 
 #### Volumen promedio global
+
 ```{r, eval=FALSE}
 All_Tests %>%
   select(sampleCollectedDate, TatUploadSample)%>%
@@ -209,23 +214,54 @@ All_Tests %>%
 
 ### Rezago
 
+#### Rezagos Globales (Rezago vs Rezago)
+
+```{r, eval=FALSE}
+Rezagovars%>%
+  group_by(Tags, createdAtDate, TatUploadReport, TatUploadSample)%>%
+  count()%>%
+  filter(TatUploadSample > 3)%>%
+  filter(TatUploadReport > 0)%>%
+  filter(TatUploadSample<400)%>%
+  filter(TatUploadReport<400)%>%
+  pivot_longer(cols = c(TatUploadReport,TatUploadSample))%>%
+  mutate(value = as.integer(value))%>%
+  ggplot(aes(x = createdAtDate, y = value, by= Tags, col=Tags, size =n))+
+  geom_point()+
+  facet_wrap(~name)+
+  labs(title = "Comparacion de rezagos por laboratorios", y = "Cantidad"
+       , x ="Fecha reportado a Bioportal")+
+  theme_light()
+```
+
 ### Campos Vacios
 
 ```{r, eval=FALSE}
 ClinicalProssNa<-All_test%>%
-  dplyr::select(orderedByEntity.name, processedByEntity.name, patient.firstName,patient.lastName, patient.contact.phoneNumber, patient.address.city, patient.birthDate,testType)%>%
+  select(orderedByEntity.name, processedByEntity.name,
+         patient.firstName,patient.lastName, patient.contact.phoneNumber,
+         patient.address.city, patient.birthDate,testType)%>%
   filter(testType == "Molecular")%>%
-  group_by(orderedByEntity.name, processedByEntity.name, patient.firstName,patient.lastName, patient.contact.phoneNumber, patient.address.city, patient.birthDate)%>%
+  group_by(orderedByEntity.name, processedByEntity.name,
+           patient.firstName,patient.lastName, patient.contact.phoneNumber,
+           patient.address.city, patient.birthDate)%>%
   count()%>%
   ungroup()%>%
   group_by(orderedByEntity.name,processedByEntity.name)%>%
-  summarise(FreqNaName = sum(is.na(patient.firstName)),FreqNaApellido = sum(is.na(patient.lastName)),FreqNaNumb = sum(is.na(patient.contact.phoneNumber)),FreqNaCity = sum(is.na(patient.address.city)), FreqNaBirth = sum(is.na(patient.birthDate)), N = sum(n))%>%
+  summarise(FreqNaName = sum(is.na(patient.firstName)),
+            FreqNaApellido = sum(is.na(patient.lastName)),
+            FreqNaNumb = sum(is.na(patient.contact.phoneNumber)),
+            FreqNaCity = sum(is.na(patient.address.city)), 
+            FreqNaBirth = sum(is.na(patient.birthDate)), N = sum(n))%>%
   ungroup()%>%
-  group_by(orderedByEntity.name,processedByEntity.name ,FreqNaName, FreqNaApellido, FreqNaNumb, FreqNaCity, FreqNaBirth,N)%>%
-  summarise(RowSum = sum(FreqNaName, FreqNaApellido, FreqNaNumb, FreqNaCity, FreqNaBirth))%>%
+  group_by(orderedByEntity.name,processedByEntity.name ,FreqNaName,
+           FreqNaApellido, FreqNaNumb, FreqNaCity, FreqNaBirth,N)%>%
+  summarise(RowSum = sum(FreqNaName, FreqNaApellido, FreqNaNumb, 
+                         FreqNaCity, FreqNaBirth))%>%
   filter(RowSum>0) %>%
   ungroup()%>%
-  group_by(orderedByEntity.name,processedByEntity.name ,FreqNaName, FreqNaApellido, FreqNaNumb, FreqNaCity, FreqNaBirth,RowSum,N)%>%
+  group_by(orderedByEntity.name,processedByEntity.name ,FreqNaName,
+           FreqNaApellido, FreqNaNumb, FreqNaCity, FreqNaBirth,RowSum,N)%>%
   summarise(Per = (RowSum/N)*100)%>%
   arrange(desc(Per))
 
@@ -241,5 +277,20 @@ ClinicalProssNa %>%
   theme_bw()+
   facet_wrap(~Tags)
   
+```
+
+```{r, eval=FALSE}
+NaMolecularTestResult <- MolecularTest[is.na(MolecularTest$orderResult.result),]
+NaMolecularTestCreatedDate <- MolecularTest[is.na(MolecularTest$createdAtDate),]
+NaMolecularTestSampDate <- MolecularTest[is.na(MolecularTest$sampleCollectedDate),]
+NaMolecularTestResDate <- MolecularTest[is.na(MolecularTest$orderResult.reportedDate),]
+NaMolecularTestType <- MolecularTest[is.na(MolecularTest$testType),]
+NaMolecularTestElec <- MolecularTest[is.na(MolecularTest$isElectronic),]
+NaMolecularTestProCity <- MolecularTest[is.na(MolecularTest$processedByEntity.city),]
+NaMolecularTestName <- MolecularTest[is.na(MolecularTest$patient.firstName),]
+NaMolecularTestNameLast <- MolecularTest[is.na(MolecularTest$patient.lastName),]
+NaMolecularTestNumb <- MolecularTest[is.na(MolecularTest$patient.contact.phoneNumber),]
+NaMolecularTestCityPat <- MolecularTest[is.na(MolecularTest$patient.address.city),]
+NaMolecularTestbirth <- MolecularTest[is.na(MolecularTest$patient.birthDate),]
 ```
 ### Relacion laboratorio-laboratorio
