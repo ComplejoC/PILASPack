@@ -215,7 +215,7 @@ All_Tests %>%
 ### Rezago
 
 #### Rezagos Globales (Rezago vs Rezago)
-
+Comparar dos tipos de reago para ....
 ```{r, eval=FALSE}
 Rezagovars%>%
   group_by(Tags, createdAtDate, TatUploadReport, TatUploadSample)%>%
