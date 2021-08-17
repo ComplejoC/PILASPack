@@ -2,14 +2,16 @@
 #'
 #' @param email Bioportal account email to be used to acces unique tests API
 #' @param password Bioportal account password to be used to acces unique tests API
+#' @param from Date (upload Date) from where to start downloading data.
+#' @param to Date (upload date) to where to download the data (the last date is included)
 #' @import httr jsonlite
 #' @export
-#' @return (very large!!) data frame of all tests from unique tests API
+#' @return data frame of all tests starting at date from  and ending at date to of the unique tests API
 #' @examples
-#' testApiDownloadAll(email, password)
-#' Datos_all=testApiDownloadAll(my_email, my_password)
+#' testApiDownloadAll(email, password, from, to)
+#' Datos_all=testApiDownloadAll(my_email, my_password,"2021-01-01", "2021-03-15")
 
-testApiDownloadAll<-function(email, password){
+testApiDownload<-function(email, password, from, to){
 
 
 
@@ -17,20 +19,20 @@ testApiDownloadAll<-function(email, password){
   base_url="https://bioportal.salud.gov.pr/api/administration/reports/unique-tests"
   Datos_all_list=list()
 
-  month_delims=helperMonthDelimiter()
+  dates=helperSliceByMonth(from,to)
 
-  start_of_month=month_delims[[1]]
-  end_of_month=month_delims[[2]]
+  start_of_date=dates[[1]]
+  end_of_date=dates[[2]]
 
 
-  l=length(start_of_month)
+  l=length(start_of_date)
 
   for (i in 1:l){
 
     #print(Sys.time())
 
     #produce the url
-    url_req=paste("/?","createdAtStartDate=",start_of_month[i],"&","createdAtEndDate=",end_of_month[i],sep="")
+    url_req=paste("/?","createdAtStartDate=",start_of_date[i],"T00:00:00Z","&","createdAtEndDate=",end_of_date[i],"T23:59:59Z",sep="")
     url=paste(base_url,url_req,sep="")
 
 
@@ -57,7 +59,7 @@ testApiDownloadAll<-function(email, password){
 
     Datos_all_list[[i]]<-Datos
 
-    names(Datos_all_list)[i]<-names(start_of_month)[i]
+
   } #ends loop
 
   Datos_all<-do.call("rbind",Datos_all_list)
