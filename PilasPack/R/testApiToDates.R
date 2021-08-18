@@ -13,6 +13,7 @@ testApiToDates<-function(DataFrame=All_Tests){
   NewFrame$orderResult.reportedDate<-as.Date(NewFrame$orderResult.reportedDate,"%m/%d/%Y")
   NewFrame$createdAtDate<-as.Date(NewFrame$createdAtDate,"%m/%d/%Y")
   NewFrame$orderResult.createdAtDate<-as.Date(NewFrame$orderResult.createdAtDate,"%m/%d/%Y")
+  NewFrame$patient.birthDate<-as.Date(NewFrame$patient.birthDate,"%m/%d/%Y")
 
   return(NewFrame)
 }
