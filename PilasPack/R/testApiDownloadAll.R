@@ -2,6 +2,7 @@
 #'
 #' @param email Bioportal account email to be used to acces unique tests API
 #' @param password Bioportal account password to be used to acces unique tests API
+#' @param format boolian variable. If true, returns the formatted data frame
 #' @import httr jsonlite
 #' @export
 #' @return (very large!!) data frame of all tests from unique tests API
@@ -9,7 +10,7 @@
 #' testApiDownloadAll(email, password)
 #' Datos_all=testApiDownloadAll(my_email, my_password)
 
-testApiDownloadAll<-function(email, password){
+testApiDownloadAll<-function(email, password,format){
 
 
 
@@ -61,6 +62,10 @@ testApiDownloadAll<-function(email, password){
   } #ends loop
 
   Datos_all<-do.call("rbind",Datos_all_list)
+
+  if(format){
+    Datos_all=testApiFormat(Datos_all)
+  }
 
   return(Datos_all)
 

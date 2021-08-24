@@ -14,7 +14,7 @@ testApiSubset(
   upload_date_end = as.Date(Sys.Date()),
   test_type = "all",
   result_type = "all",
-  lab_file = "all",
+  lab_tag = "all",
   lab_names = c("all"),
   lab_ids = c("all"),
   upload_method = "all",
@@ -41,7 +41,7 @@ testApiSubset(
 
 \item{result_type}{Default subsets by all types of results. Takes String value. Available result types are:Negative, Not Detected, Inconclusive,Positive 2019-nCoV, Positive, Not Tested,Other,Positive IgM Only,Positive IgM and IgG,Positive IgG Only, Not Valid,Invalid, COVID-19 Negative, Presumptive Positive,"", COVID-19 Positive, SARS-CoV-2 Negative, SARS-CoV-2 Presumptive Positive,SARS-CoV-2 Positive}
 
-\item{lab_file}{default value equals all}
+\item{lab_tag}{default value equals all}
 
 \item{lab_names}{default value is a vector of all}
 

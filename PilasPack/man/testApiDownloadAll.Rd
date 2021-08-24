@@ -4,12 +4,14 @@
 \alias{testApiDownloadAll}
 \title{Downloads the enteirity of the unique tests API}
 \usage{
-testApiDownloadAll(email, password)
+testApiDownloadAll(email, password, format)
 }
 \arguments{
 \item{email}{Bioportal account email to be used to acces unique tests API}
 
 \item{password}{Bioportal account password to be used to acces unique tests API}
+
+\item{format}{boolian variable. If true, returns the formatted data frame}
 }
 \value{
 (very large!!) data frame of all tests from unique tests API
