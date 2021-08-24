@@ -4,6 +4,7 @@
 #' @param password Bioportal account password to be used to acces unique tests API
 #' @param from Date (upload Date) from where to start downloading data.
 #' @param to Date (upload date) to where to download the data (the last date is included)
+#' @param format boolian variable. If true, returns the formatted data frame
 #' @import httr jsonlite
 #' @export
 #' @return data frame of all tests starting at date from  and ending at date to of the unique tests API
@@ -11,7 +12,7 @@
 #' testApiDownloadAll(email, password, from, to)
 #' Datos_all=testApiDownloadAll(my_email, my_password,"2021-01-01", "2021-03-15")
 
-testApiDownload<-function(email, password, from, to){
+testApiDownload<-function(email, password, from, to, format=TRUE){
 
 
 
@@ -63,6 +64,10 @@ testApiDownload<-function(email, password, from, to){
   } #ends loop
 
   Datos_all<-do.call("rbind",Datos_all_list)
+
+  if(format){
+    Datos_all=testApiFormat(Datos_all)
+  }
 
   return(Datos_all)
 

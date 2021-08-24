@@ -4,7 +4,7 @@
 \alias{testApiDownload}
 \title{Downloads the enteirity of the unique tests API}
 \usage{
-testApiDownload(email, password, from, to)
+testApiDownload(email, password, from, to, format = TRUE)
 }
 \arguments{
 \item{email}{Bioportal account email to be used to acces unique tests API}
@@ -14,6 +14,8 @@ testApiDownload(email, password, from, to)
 \item{from}{Date (upload Date) from where to start downloading data.}
 
 \item{to}{Date (upload date) to where to download the data (the last date is included)}
+
+\item{format}{boolian variable. If true, returns the formatted data frame}
 }
 \value{
 data frame of all tests starting at date from  and ending at date to of the unique tests API
