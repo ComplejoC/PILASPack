@@ -1,0 +1,7 @@
+"","Error Flag","Deescription"
+"1","SDE","The sample date that appears on the test is too early (before 2020-03-08) "
+"2","RDE","The report date that appears on the test is too early (before 2020-03-08) "
+"3","SDE","The upload date that appears on the test is too early (before 2020-03-08) "
+"4","SD>RD","The sample date is before the report date"
+"5","RD>UD","The report date is before the upload date"
+"6","SD>UD","The sample date is before the upload date"
