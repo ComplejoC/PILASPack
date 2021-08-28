@@ -10,7 +10,7 @@
 
 
 helperMonthDelimiter<-function(date=Sys.Date()){
-  #the first month for the data is April 2020
+  #the first month for the data is April 2020 because the first test registered on Bioportal is from april 2020
   # we'll use this to make a list of the first day of the month starting from this date
   first_month_start="2020-04-01"
 
