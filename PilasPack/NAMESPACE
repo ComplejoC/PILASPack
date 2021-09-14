@@ -2,7 +2,9 @@
 
 export(caseApiDownloadAll)
 export(schoolMemebersApiDownloadAll)
-export(testApiAddTag)
+export(testApiAddLabHashtags)
+export(testApiAddLabTag)
+export(testApiAddSingleLabHashtag)
 export(testApiCalculateTurnaround)
 export(testApiCountDelays)
 export(testApiCountLabs)

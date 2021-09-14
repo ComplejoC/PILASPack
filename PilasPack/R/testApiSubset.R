@@ -10,6 +10,7 @@
 #' @param test_type Default subsets by all types of test. Takes String value. Available test types are: Molecular, Serological, Antigens,Total Antibodies,Serological IgG Only
 #' @param result_type Default subsets by all types of results. Takes String value. Available result types are:Negative, Not Detected, Inconclusive,Positive 2019-nCoV, Positive, Not Tested,Other,Positive IgM Only,Positive IgM and IgG,Positive IgG Only, Not Valid,Invalid, COVID-19 Negative, Presumptive Positive,"", COVID-19 Positive, SARS-CoV-2 Negative, SARS-CoV-2 Presumptive Positive,SARS-CoV-2 Positive
 #' @param lab_tag default value equals all
+#' @param hashtag default value equals all
 #' @param lab_names  default value is a vector of all
 #' @param lab_ids default value is a vector of all
 #' @param upload_method default value equals all
@@ -28,7 +29,7 @@ testApiSubset<-function(data_frame=All_Tests,
                         report_date_start=as.Date("2020-03-01"),report_date_end=as.Date(Sys.Date()),
                         upload_date_start=as.Date("2020-03-01"),upload_date_end=as.Date(Sys.Date()),
                         test_type="all", result_type="all",
-                        lab_tag="all", lab_names=c("all"), lab_ids=c("all"),
+                        lab_tag="all", hashtag="all", lab_names=c("all"), lab_ids=c("all"),
                         upload_method="all", phone_numbers=c("all"), contact_type="all" ){
   ###############################################
   #date ranges
@@ -59,15 +60,25 @@ testApiSubset<-function(data_frame=All_Tests,
 
 
   ##############################################
-  #### lab_file
+  #### lab_tag
 
   if (lab_tag=="all"){
     bool_lab_tag<-TRUE
   } else{
 
-    bool_lab_tag= data_frame$Tag==lab_tag;
+    bool_lab_tag= grepl(lab_tag, data_frame$LabTag, ignore.case = TRUE) #data_frame$LabTag==lab_tag;
   }
 
+
+  ##############################################
+  #### hashtag
+
+  if (hashtag=="all"){
+    bool_lab_tag<-TRUE
+  } else{
+
+    bool_hashtag= grepl(hashtag, data_frame$Hashtag, ignore.case = TRUE)
+  }
 
 
   #############################################
@@ -132,7 +143,7 @@ testApiSubset<-function(data_frame=All_Tests,
   ###############################################
   bool_combined=(bool_sample_range & bool_report_range & bool_upload_range &
                    bool_test_type & bool_result_type
-                 & bool_lab_tag  & bool_lab_names & bool_lab_ids
+                 & bool_lab_tag & bool_hashtag & bool_lab_names & bool_lab_ids
                  & bool_upload_method & bool_phone_numbers)
 
   return(subset(data_frame, bool_combined))

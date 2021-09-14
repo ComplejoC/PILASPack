@@ -2,12 +2,11 @@
 #'
 #' @param DataFrame A Data Frame object from Test API
 #' @return The same Data Frame with an added Column containg the corresponding Lab Tags for each test
-#' @export
 #' @examples
 #' testApiCalculateTurnaround(All_Test)
 #' testApiCalculateTurnaround(sub_Test)
 
-testApiAddTag<-function(DataFrame=All_Tests){
+testApiAddLabTag<-function(DataFrame=All_Tests){
   NewFrame=DataFrame
   LabTags=PilasPack::LabTags
 

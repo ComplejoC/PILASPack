@@ -10,5 +10,5 @@
 
 testApiFormat<-function(dataFrame)
 {
-  return(dataFrame%>% testApiToDates()%>%  testApiMonthAsColumn()%>% testApiCalculateTurnaround() %>%  testApiAddTag())
+  return(dataFrame%>% testApiToDates()%>%  testApiMonthAsColumn()%>% testApiCalculateTurnaround() %>%  testApiAddLabTag())
 }
