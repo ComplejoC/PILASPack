@@ -6,8 +6,8 @@
 \usage{
 testApiPositivity(
   DataFrame = All_Tests,
-  cutoff_min = FALSE,
-  cutoff_max = FALSE,
+  cutoff_min = TRUE,
+  cutoff_max = TRUE,
   cutoff_lower = "no",
   cutoff_upper = "no"
 )
@@ -15,13 +15,13 @@ testApiPositivity(
 \arguments{
 \item{DataFrame}{A data frame that has already been manipulated by testApiCalculateTurnaround, testApiToDates and testApiMonthAsColumn.}
 
-\item{cutoff_min}{FALSE}
+\item{cutoff_min}{If True, cuts off to the earliest non-zero date}
 
-\item{cutoff_max}{FALSE}
+\item{cutoff_max}{If True, cuts off to the latest non-zero date}
 
-\item{cutoff_lower}{"no"}
+\item{cutoff_lower}{Cuts off at specific lower date}
 
-\item{cutoff_upper}{"no"}
+\item{cutoff_upper}{Cuts off at specific upper date}
 }
 \value{
 NewFrame with the positivity calculated by unit of time

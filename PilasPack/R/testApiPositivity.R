@@ -1,10 +1,10 @@
 #' Returns Positivity for test available in TestApi Table
 #'
 #' @param DataFrame A data frame that has already been manipulated by testApiCalculateTurnaround, testApiToDates and testApiMonthAsColumn.
-#' @param cutoff_min FALSE
-#' @param cutoff_max FALSE
-#' @param cutoff_lower "no"
-#' @param cutoff_upper "no"
+#' @param cutoff_min If True, cuts off to the earliest non-zero date
+#' @param cutoff_max If True, cuts off to the latest non-zero date
+#' @param cutoff_lower Cuts off at specific lower date
+#' @param cutoff_upper Cuts off at specific upper date
 #' @export
 #' @return NewFrame with the positivity calculated by unit of time
 #' @examples
@@ -13,7 +13,7 @@
 #'
 
 testApiPositivity<-function(DataFrame= All_Tests,
-                            cutoff_min=FALSE, cutoff_max=FALSE,
+                            cutoff_min=TRUE, cutoff_max=TRUE,
                             cutoff_lower="no", cutoff_upper="no"){
   fechas<-testApiDateList();
 
