@@ -23,7 +23,7 @@ testApiETR<-function(DataFrame= All_Tests,
                         "Total Uploaded","Electronic Transmission Rate (%)")
   NewFrame[,1]<-fechas
   for(i in 1:nrow(NewFrame)){
-    NewFrame[i,2]<-nrow(subset(DataFrame, isElectronic=="True" & orderResult.createdAtDate==fechas[i]  ))
+    NewFrame[i,2]<-nrow(subset(DataFrame, isElectronic & orderResult.createdAtDate==fechas[i]  ))
     NewFrame[i,4]<-nrow(subset(DataFrame, orderResult.createdAtDate==fechas[i]))
   }
 

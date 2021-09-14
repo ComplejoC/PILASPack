@@ -9,12 +9,13 @@
 
 testApiAddTag<-function(DataFrame=All_Tests){
   NewFrame=DataFrame
+  LabTags=PilasPack::LabTags
 
 
   v<-match(NewFrame$processedByEntity.name,  LabTags$Nombre)
-  vv<-PilasPack::LabTags$Tag[v]
+  vv<-LabTags$Tag[v]
   vvv<-ifelse(is.na(vv),"Other",vv)
-  NewFrame$Tag=vvv
+  NewFrame$LabTag=vvv
 
 
 
