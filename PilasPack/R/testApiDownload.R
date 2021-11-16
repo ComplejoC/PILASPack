@@ -1,4 +1,4 @@
-#' Downloads the enteirity of the unique tests API
+#' Downloads the unique tests API from Bioportal for the selected date ranges
 #'
 #' @param email Bioportal account email to be used to acces unique tests API
 #' @param password Bioportal account password to be used to acces unique tests API

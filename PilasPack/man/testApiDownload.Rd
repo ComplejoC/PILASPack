@@ -2,7 +2,7 @@
 % Please edit documentation in R/testApiDownload.R
 \name{testApiDownload}
 \alias{testApiDownload}
-\title{Downloads the enteirity of the unique tests API}
+\title{Downloads the unique tests API from Bioportal for the selected date ranges}
 \usage{
 testApiDownload(email, password, from, to, format = TRUE)
 }
@@ -21,7 +21,7 @@ testApiDownload(email, password, from, to, format = TRUE)
 data frame of all tests starting at date from  and ending at date to of the unique tests API
 }
 \description{
-Downloads the enteirity of the unique tests API
+Downloads the unique tests API from Bioportal for the selected date ranges
 }
 \examples{
 testApiDownloadAll(email, password, from, to)
