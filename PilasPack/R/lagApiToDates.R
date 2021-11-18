@@ -2,6 +2,7 @@
 #'
 #' @param DataFrame A Data Frame object from lag API
 #' @return The same Data Frame with date columns transformed into R Date objects (%Y-%m-%d)
+#' @export
 #' @examples
 #' All_Tests=lagApiToDates(All_Test)
 
