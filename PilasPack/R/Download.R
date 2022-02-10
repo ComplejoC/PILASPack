@@ -8,7 +8,7 @@
 #' @param format boolian variable. If true, returns the formatted data frame
 #' @import httr jsonlite
 #' @export
-#' @return data frame of all tests starting at date from  and ending at date to of the unique tests API
+#' @return data frame from specified API
 #' @examples
 #' testApiDownloadAll(email, password, from, to)
 #' Datos_all=testApiDownloadAll(my_email, my_password,"2021-01-01", "2021-03-15")
@@ -27,6 +27,8 @@ Download<-function(api, email, password, from, to, format=FALSE)
                "schoolmember"=schoolMembersApiDownloadAll(email,password),
                "schoolmembers"=schoolMembersApiDownloadAll(email,password),
                "lag"=lagApiDownload(email,password,from, to, format),
+               "patients"=patientsApiDownloadAll(email, password),
+               "interviews"=interviewsApiDownload(email, password, from, to),
                cat("Invalid API entred. Please use one of the following: test  case  address  entity  schoolMember lag")
                )
   return(Datos)

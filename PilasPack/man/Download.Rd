@@ -20,7 +20,7 @@ Download(api, email, password, from, to, format = FALSE)
 \item{format}{boolian variable. If true, returns the formatted data frame}
 }
 \value{
-data frame of all tests starting at date from  and ending at date to of the unique tests API
+data frame from specified API
 }
 \description{
 Downloads the unique tests API from Bioportal for the selected date ranges
