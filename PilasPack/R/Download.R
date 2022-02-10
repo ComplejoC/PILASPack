@@ -29,7 +29,8 @@ Download<-function(api, email, password, from, to, format=FALSE)
                "lag"=lagApiDownload(email,password,from, to, format),
                "patients"=patientsApiDownloadAll(email, password),
                "interviews"=interviewsApiDownload(email, password, from, to),
-               cat("Invalid API entred. Please use one of the following: test  case  address  entity  schoolMember lag")
+               "hospitalizations"=hospitalizationsApiDownloadAll(email,password),
+               cat("Invalid API entred. Please use one of the following: test  case  address  entity  schoolMember lag patients interviews hospitalizations")
                )
   return(Datos)
   }
