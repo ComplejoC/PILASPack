@@ -2,22 +2,24 @@
 % Please edit documentation in R/patientsApiDownloadAll.R
 \name{patientsApiDownloadAll}
 \alias{patientsApiDownloadAll}
-\title{Downloads the enteirity of the patients API}
+\title{Downloads the enteirity of the unique tests API}
 \usage{
-patientsApiDownloadAll(email, password)
+patientsApiDownloadAll(email, password, format)
 }
 \arguments{
 \item{email}{Bioportal account email to be used to acces unique tests API}
 
 \item{password}{Bioportal account password to be used to acces unique tests API}
+
+\item{format}{boolian variable. If true, returns the formatted data frame}
 }
 \value{
-data frame of all entities from entity API
+(very large!!) data frame of all tests from unique tests API
 }
 \description{
-Downloads the enteirity of the patients API
+Downloads the enteirity of the unique tests API
 }
 \examples{
-patientsApiDownloadAll(email, password)
-patients=entityApiDownloadAll(my_email, my_password)
+testApiDownloadAll(email, password)
+Datos_all=testApiDownloadAll(my_email, my_password)
 }
