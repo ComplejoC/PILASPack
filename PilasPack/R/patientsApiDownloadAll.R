@@ -1,4 +1,4 @@
-#' Downloads the enteirity of the unique tests API
+#' Downloads the enteirity of the patients API
 #'
 #' @param email Bioportal account email to be used to acces unique tests API
 #' @param password Bioportal account password to be used to acces unique tests API
@@ -15,7 +15,7 @@ patientsApiDownloadAll<-function(email, password,format){
 
 
 
-  base_rurl="https://bioportal.salud.pr.gov/api/administration/reports/patients/general"
+  base_url="https://bioportal.salud.pr.gov/api/administration/reports/patients/general"
   Datos_all_list=list()
 
   month_delims=helperMonthDelimiter()

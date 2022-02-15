@@ -2,7 +2,7 @@
 % Please edit documentation in R/patientsApiDownloadAll.R
 \name{patientsApiDownloadAll}
 \alias{patientsApiDownloadAll}
-\title{Downloads the enteirity of the unique tests API}
+\title{Downloads the enteirity of the patients API}
 \usage{
 patientsApiDownloadAll(email, password, format)
 }
@@ -17,7 +17,7 @@ patientsApiDownloadAll(email, password, format)
 (very large!!) data frame of all tests from unique tests API
 }
 \description{
-Downloads the enteirity of the unique tests API
+Downloads the enteirity of the patients API
 }
 \examples{
 testApiDownloadAll(email, password)
