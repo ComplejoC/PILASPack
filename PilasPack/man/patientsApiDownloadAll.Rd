@@ -4,7 +4,7 @@
 \alias{patientsApiDownloadAll}
 \title{Downloads the enteirity of the patients API}
 \usage{
-patientsApiDownloadAll(email, password, format)
+patientsApiDownloadAll(email, password, format = FALSE)
 }
 \arguments{
 \item{email}{Bioportal account email to be used to acces unique tests API}

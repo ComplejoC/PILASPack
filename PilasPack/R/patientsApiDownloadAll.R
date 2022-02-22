@@ -10,7 +10,7 @@
 #' testApiDownloadAll(email, password)
 #' Datos_all=testApiDownloadAll(my_email, my_password)
 
-patientsApiDownloadAll<-function(email, password,format){
+patientsApiDownloadAll<-function(email, password,format=FALSE){
 
 
 
@@ -26,7 +26,7 @@ patientsApiDownloadAll<-function(email, password,format){
 
   l=length(start_of_month)
 
-  for (i in 1:l){
+  for (i in 4:l){
 
     #print(Sys.time())
 
@@ -63,9 +63,7 @@ patientsApiDownloadAll<-function(email, password,format){
 
   Datos_all<-do.call("rbind",Datos_all_list)
 
-  if(format){
-    Datos_all=testApiFormat(Datos_all)
-  }
+
 
   return(Datos_all)
 
