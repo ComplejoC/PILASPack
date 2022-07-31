@@ -15,6 +15,3 @@ the string stored under clia, if any. If no clia is found it returns the empty s
 \description{
 extracts the clia
 }
-\examples{
-
-}

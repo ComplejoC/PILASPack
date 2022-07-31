@@ -19,6 +19,3 @@ generates two vectors, one with the first day of the month starting from april 2
 to the current month, and one with le last day of the month starting from april 2020
 to the current month
 }
-\examples{
-
-}

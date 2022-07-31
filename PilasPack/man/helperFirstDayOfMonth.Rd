@@ -15,6 +15,3 @@ First day of that date's month
 \description{
 returns the first day of the month for a given date
 }
-\examples{
-
-}
