@@ -7,7 +7,7 @@
 #' @param api API to download
 #' @param timezone timezone to use (defaults to "UTC")
 #' @param PR_Timezone Boolean. If True, will set the timezone to "Etc/GMT+4"
-#' @import httr jsonlite lubridate
+#' @import httr jsonlite lubridate tictoc
 #' @export
 #' @return data frame of all tests starting at date from  and ending at date to of the unique tests API
 #' @examples
@@ -15,6 +15,17 @@
 #' Datos_all=testApiDownloadAll(my_email, my_password,"2021-01-01", "2021-03-15")
 
 ApiDownload<-function(email, password, from, to, api, timezone="UTC", PR_Timezone=FALSE){
+
+  ##########################
+  #start the timer
+  tic("Total time elapsed: ")
+
+  #check if we need to use PR_Timezone
+  if(PR_Timezone){
+    TZ="Etc/GMT+4"
+  } else{
+    TZ=timezone
+  }
 
   ##############################
   # Getting Token
@@ -33,9 +44,11 @@ ApiDownload<-function(email, password, from, to, api, timezone="UTC", PR_Timezon
   #function to get the data
   get_data<-function(url)
   {
+    tic(paste("API Call: ",url,sep=""))
     api_data=GET(url,content_type('application/json'), add_headers(authorization = paste('Bearer', token$token), 'Accept-Enconding'="br"))
 
     api_data_frame=flatten(fromJSON(rawToChar(api_data$content)))
+    toc()
 
     return(api_data_frame)
   }
@@ -56,7 +69,7 @@ ApiDownload<-function(email, password, from, to, api, timezone="UTC", PR_Timezon
     #now, add 00:00:00 for the beggining url header
     dates_0=paste(dates, "00:00:00")
     #set to desired timezone
-    start_dates=ymd_hms(dates_0, tz=timezone)
+    start_dates=ymd_hms(dates_0, tz=TZ)
     #display in UTC
     start_times=with_tz(start_dates, tz="UTC")
     #format it for api call
@@ -66,7 +79,7 @@ ApiDownload<-function(email, password, from, to, api, timezone="UTC", PR_Timezon
     #now add 23:59:59
     dates_midnight=paste(dates, "23:59:59")
     #set to desired timezone
-    end_dates=ymd_hms(dates_midnight, tz=timezone)
+    end_dates=ymd_hms(dates_midnight, tz=TZ)
     #display in UTC
     end_times=with_tz(end_dates, tz="UTC")
     #format it for api call
@@ -83,10 +96,16 @@ ApiDownload<-function(email, password, from, to, api, timezone="UTC", PR_Timezon
 
 
   #############################
+  #apply the get_data function for each url (i.e each day)
   X=lapply(url, get_data)
 
-
+  #then, combine all the data frames together
   API_Data_Frame=do.call("rbind",X)
+
+
+  #finally, paste the total time elapsed
+  toc()
+
 
   return(API_Data_Frame)
 
