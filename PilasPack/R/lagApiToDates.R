@@ -15,7 +15,7 @@ lagApiToDates<-function(DataFrame){
   NewFrame$timestamps.resultCreatedAtDate<-as.Date(NewFrame$timestamps.resultCreatedAtDate)
   NewFrame$patient.birthDate<-as.Date(NewFrame$patient.birthDate)
 
-  #NewFrame$timestamps.uploadDate= (function(x)  ifelse(x==as.Date("0001-01-01"),NA,x) )(NewFrame$timestamps.uploadDate)
+  NewFrame$timestamps.fileUploadDate=as.Date(NewFrame$timestamps.fileUploadDate)
 
   return(NewFrame)
 }

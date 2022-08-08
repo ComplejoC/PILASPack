@@ -20,6 +20,14 @@ lagApiCalculateTurnaround<-function(DataFrame){
                                      DataFrame$timestamps.sampleCollectedDate,
                                      units="days")
 
+  NewFrame$TatFileUploadToResultCreated <-floor(difftime(DataFrame$timestamps.resultCreatedAtDate,
+                                                         DataFrame$timestamps.fileUploadDate,
+                                                         units="days"))
+
+  NewFrame$TatResultReportedToFileUpload <-floor(difftime(DataFrame$timestamps.fileUploadDate,
+                                                          DataFrame$timestamps.resultReportedDate,
+                                                          units="days"))
+
 
 
   return(NewFrame)
