@@ -30,12 +30,13 @@ ApiDownload(
 \item{PR_Timezone}{Boolean. If True, will set the timezone to "Etc/GMT+4"}
 }
 \value{
-data frame of all tests starting at date from  and ending at date to of the unique tests API
+Selected API (use an API found in PilasPack::Endpoints) using your Bioportal credentials
 }
 \description{
 Downloads the unique tests API from Bioportal for the selected date ranges
 }
 \examples{
-testApiDownloadAll(email, password, from, to)
-Datos_all=testApiDownloadAll(my_email, my_password,"2021-01-01", "2021-03-15")
+DF=ApiDownload(your_email, your_password, start_date, end_date, api_to_use, PR_Timezone=TRUE)
+All_Tests=ApiDownload(your_email, your_password, start_date, end_date, lag, PR_Timezone=TRUE)
+Cases=ApiDownload(your_email, your_password, start_date, end_date, casesSummary, PR_Timezone=TRUE)
 }
